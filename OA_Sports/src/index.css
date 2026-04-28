@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+body{
+    font-family:'Chakra Petch',sans-serif;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+}
+
+@theme{
+    --color-mainYellow:#D2FF00;
+    --color-blackBg:#1c1c1c;
+    --color-borderColor:#d5d7da;
+    --color-navFont:#D5D7DA;
+    --color-whiteColor:#fff;
+    --color-openYellow:#F5FB94;
+    --font-platypiItalic:"platypi",serif;
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+  }
+}
+
