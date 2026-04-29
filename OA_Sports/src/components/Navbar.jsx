@@ -39,8 +39,8 @@ function Navbar(){
 
 
     return(
-        <div className='w-93.75 flex justify-self-center flex-col'>
-            <nav className={`w-93.75 h-20 border-b  bg-blackBg flex flex-row items-center justify-self-center justify-between px-4`}>
+        <div className='w-full flex justify-self-center flex-col'>
+            <nav className={`w-full h-20 border-b  bg-blackBg flex flex-row items-center justify-self-center justify-between px-4`}>
                 <img src={star} className='w-18 h-18' ></img>
                 <span className='w-12 h-12 flex justify-center items-center'>{menuIsOpen ?  <XMarkIcon className="w-6 h-6 stroke-mainYellow" onClick={toggleMenu}  />:<Bars3Icon className="w-6 h-6 text-mainYellow" onClick={toggleMenu} />}</span>
             </nav>

@@ -7,10 +7,12 @@ body{
     justify-self: center;
 }
 
+
 @theme{
     --color-mainYellow:#D2FF00;
     --color-blackBg:#1c1c1c;
     --color-borderColor:#d5d7da;
+    --color-bg:#121212;
     --color-navFont:#D5D7DA;
     --color-whiteColor:#fff;
     --color-openYellow:#F5FB94;

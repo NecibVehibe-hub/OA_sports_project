@@ -1,6 +1,6 @@
-import Title from "./Titels";
+import Title from "../Titels";
 import { useState } from "react";
-import ball from "../assets/ball.jpg";
+import ball from "../../assets/ball.jpg";
 
 const img=ball;
 
@@ -30,7 +30,7 @@ function WhatOASportsDo(){
     const [IsOpen,setIsOpen] = useState(0)
 
     return(
-        <div className="w-93.75 h-215 bg-black py-6 px-4 flex flex-col gap-3">
+        <div className="w-full h-215 bg-bg py-6 px-4 flex flex-col gap-3">
         <Title start={"What"} center={"OA sports"} end={"do"}/>
         <div className="w-85.75 h-189 flex flex-col gap-4">
             {cardsList.map((card,index)=>(
