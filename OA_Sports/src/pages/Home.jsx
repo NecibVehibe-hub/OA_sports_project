@@ -5,6 +5,9 @@ import WhatOASportsDo from "../components/homePageComponents/What_OA_sports_do";
 import video from "../assets/video.mp4";
 import WhyOASports from "../components/homePageComponents/WhyOASports";
 import InterestedCard from "../components/InterestedCard";
+import PricingPlansButton from "../components/Pricing_Plans_Button";
+import OurLatestNews from "../components/homePageComponents/OurLatestNews";
+import OurPartnership from "../components/homePageComponents/Our_Partnership";
 
 function Home(){
     return(
@@ -18,7 +21,7 @@ function Home(){
                         <span className="text-whiteColor">Every move matters. Every second counts.</span>
                     </div>
                     <div className="w-66 h-11 flex justify-between ">
-                        <button className="w-33 h-11 bg-mainYellow rounded-lg font-bold">Pricing Plans</button>
+                        <PricingPlansButton/>
                         <ContactUsButton text="Contact Us" variant="HomePageButton"/>
                     </div>
                 </div>
@@ -28,6 +31,8 @@ function Home(){
             <WhatOASportsDo/>
             <WhyOASports/>
             <InterestedCard/>
+            <OurLatestNews/>
+            <OurPartnership/>
         </div>
     )
 }
