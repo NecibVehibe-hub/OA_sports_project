@@ -1,6 +1,10 @@
-function PricingPlansButton(){
+function PricingPlansButton({variant}){
+    let baseStyle="w-33 h-11 bg-mainYellow rounded-lg font-bold"
+    let variants={
+        HaveShadow:"shadow-[0_2px_10px_#D2FF00] "
+    }
     return(
-        <button className="w-33 h-11 bg-mainYellow rounded-lg font-bold">Pricing Plans</button>
+        <button className={`${baseStyle} ${variants[variant]}`}>Pricing Plans</button>
     )
 }
 export default PricingPlansButton;

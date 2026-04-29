@@ -36,7 +36,7 @@ function OurPartnership({img1,img2}){
                         <br />
                         <p>OA Sports is a multifaceted sports consulting and management company that brings together multidisciplinary expertise.</p>
                     </div>
-                    <PricingPlansButton/>
+                    <PricingPlansButton variant={"HaveShadow"}/>
                 </div>
             </div>
         </div>
