@@ -23,11 +23,84 @@
   "WhoWeAre": {
     "card1": "Sunduğumuz her hizmet, kariyerinize değer katmak ve sizi zirveye taşımak için titizlikle tasarlanmıştır.",
     "card2": "Misyonumuz; sporun her seviyesindeki profesyonellere—oyuncular, antrenörler, hakemler, kulüpler ve federasyonlar—etkili ve uzun vadeli stratejilerle sürdürülebilir başarı inşa etme yolunda eşlik etmektir.",
-    "card3": "Sunduğumuz her hizmet, kariyerinize değer katmak ve sizi zirveye taşımak için titizlikle tasarlanmıştır."
+    "card3": "Sunduğumuz her hizmet, kariyerinize değer katmak ve sizi zirveye taşımak için titizlikle tasarlanmıştır.",
+    "Who":"Biz",
+    "We":"Kimiz",
+    "Are":""
   },
-  "Who":"Biz",
-  "We":"Kimiz",
-  "Are":""
   
 
+
+  "OurNumbersTalks":{
+    "Our":"Bizim",
+    "numbers":"sayılar",
+    "talks":"konuşur",
+    "card1":{
+      "Talents":"Yetenekler",
+      "text":"OA Sports, çok disiplinli uzmanlığı tek çatı altında toplayan çok yönlü bir spor danışmanlık ve yönetim şirketidir."
+    },
+    "card2":{
+      "Talents":"Yetenekler",
+      "text":"OA Sports, çok disiplinli uzmanlığı tek çatı altında toplayan çok yönlü bir spor danışmanlık ve yönetim şirketidir."
+    },
+    "card3":{
+      "Talents":"Yetenekler",
+      "text":"OA Sports, çok disiplinli uzmanlığı tek çatı altında toplayan çok yönlü bir spor danışmanlık ve yönetim şirketidir."
+    }
+  },
+  "WhatOASportsDo": {
+    "What": "Ne",
+    "OA_sports": "OA spor",
+    "do": "yapar",
+    "card1": {
+      "title": "Oyuncu Hizmetleri",
+      "text": "Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card2": {
+      "title": "Oyuncu Hizmetleri",
+      "text": "Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card3": {
+      "title": "Oyuncu Hizmetleri",
+      "text": "Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card4": {
+      "title": "Oyuncu Hizmetleri",
+      "text": "Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card5": {
+      "title": "Oyuncu Hizmetleri",
+      "text": "Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  },
+  "WhyOASports":{  
+    "Why":"Neden",  
+    "OA_sports":"OA Spor",  
+    "card1":{  
+      "title":"Oyuncu Hizmetleri",  
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."  
+    },  
+    "card2":{  
+      "title":"Oyuncu Hizmetleri",  
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."  
+    },  
+    "card3":{  
+      "title":"Oyuncu Hizmetleri",  
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."  
+    },  
+    "card4":{  
+      "title":"Oyuncu Hizmetleri",  
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."  
+    },  
+    "card5":{  
+      "title":"Oyuncu Hizmetleri",  
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."  
+    }  
+  }  
+
+
+
+
 }
+
+

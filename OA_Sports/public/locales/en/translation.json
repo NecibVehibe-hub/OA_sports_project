@@ -22,16 +22,16 @@
   "WhoWeAre":{
     "card1":"Every service we offer is meticulously designed to add value to your career and help you reach the top.",
     "card2":"Our mission is to accompany professionals at all levels of sport, players, coaches, referees, clubs, and federations in building sustainable success through effective, long-term strategies.",
-    "card3":"Every service we offer is meticulously designed to add value to your career and help you reach the top."
+    "card3":"Every service we offer is meticulously designed to add value to your career and help you reach the top.",
+    "Who":"Who",
+    "We":"We",
+    "Are":"Are"
   },
 
-  "Who":"Who",
-  "We":"We",
-  "Are":"Are",
-  "Our":"Our",
-  "numbers":"numbers",
-  "talks":"talks",
   "OurNumbersTalks":{
+    "Our":"Our",
+    "numbers":"numbers",
+    "talks":"talks",
     "card1":{
       "Talents":"Talents",
       "text":"OA Sports is a multifaceted sports consulting and management company that brings together multidisciplinary expertise under one roof."
@@ -44,6 +44,54 @@
       "Talents":"Talents",
       "text":"OA Sports is a multifaceted sports consulting and management company that brings together multidisciplinary expertise under one roof."
     }
+  },
+  "WhatOASportsDo":{
+    "What":"What",
+    "OA_sports":"OA sports",
+    "do":"do",
+    "card1":{
+      "title":"Players Services",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card2":{
+      "title":"Players Services",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card3":{
+      "title":"Players Services",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card4":{
+      "title":"Players Services",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card5":{
+      "title":"Players Services",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  },
+  "WhyOASports":{
+    "Why":"Why",
+    "OA_sports":"OA sports",
+    "card1":{
+      "title":"Players Services",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card2":{
+      "title":"Players Services",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card3":{
+      "title":"Players Services",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card4":{
+      "title":"Players Services",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card5":{
+      "title":"Players Services",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
   }
-  
 }

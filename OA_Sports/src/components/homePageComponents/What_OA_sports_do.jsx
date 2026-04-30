@@ -1,7 +1,7 @@
 import Title from "../Titels";
 import { useState } from "react";
 import ball from "../../assets/ball.jpg";
-
+import { useTranslation } from "react-i18next";
 const img=ball;
 
 
@@ -19,19 +19,20 @@ function Card({title,text,img,isOpen}){
 }
 
 function WhatOASportsDo(){
+    const {t} = useTranslation();
     const cardsList = [
-        {title:"Players Services", text:"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", img:img},
-        {title:"Players Services", text:"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", img:img},
-        {title:"Players Services", text:"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", img:img},
-        {title:"Players Services", text:"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", img:img},
-        {title:"Players Services", text:"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", img:img},
+        {title:t("WhatOASportsDo.card1.title"), text:t("WhatOASportsDo.card1.text"), img:img},
+        {title:t("WhatOASportsDo.card2.title"), text:t("WhatOASportsDo.card2.text"), img:img},
+        {title:t("WhatOASportsDo.card3.title"), text:t("WhatOASportsDo.card3.text"), img:img},
+        {title:t("WhatOASportsDo.card4.title"), text:t("WhatOASportsDo.card4.text"), img:img},
+        {title:t("WhatOASportsDo.card5.title"), text:t("WhatOASportsDo.card5.text"), img:img},
     ]
 
     const [IsOpen,setIsOpen] = useState(0)
 
     return(
         <div className="w-full h-215 bg-bg py-6 px-4 flex flex-col gap-3">
-        <Title start={"What"} center={"OA sports"} end={"do"}/>
+        <Title start={t("WhatOASportsDo.What")} center={t("WhatOASportsDo.OA_sports")} end={t("WhatOASportsDo.do")}/>
         <div className="w-85.75 h-189 flex flex-col gap-4">
             {cardsList.map((card,index)=>(
             <div key={index} className={`w-full ${IsOpen===index ? "h-80":"h-25"}`} onClick={()=>setIsOpen(index)} >

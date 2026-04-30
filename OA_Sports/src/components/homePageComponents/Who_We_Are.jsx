@@ -6,7 +6,7 @@ function WhoWeAre(){
     return(
         <>
             <div className="bg-bg w-full h-97.75 py-6 px-4 flex flex-col gap-4 ">
-                <Title start={t("Who")} center={t("We")} end={t("Are")}/>
+                <Title start={t("WhoWeAre.Who")} center={t("WhoWeAre.We")} end={t("WhoWeAre.Are")}/>
                 <div className="w-ful no-scrollbar overflow-auto h-70.75 overflow-x-auto flex gap-4 ">
                     <Cards text={t("WhoWeAre.card1")}/>
                     <Cards text={t("WhoWeAre.card2")}/>
