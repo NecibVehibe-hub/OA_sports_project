@@ -8,7 +8,7 @@ import InterestedCard from "../components/InterestedCard";
 import PricingPlansButton from "../components/Pricing_Plans_Button";
 import OurLatestNews from "../components/homePageComponents/OurLatestNews";
 import OurPartnership from "../components/homePageComponents/Our_Partnership";
-import Footer from "../components/homePageComponents/Footer";
+import Footer from "../components/Footer";
 
 function Home(){
     return(

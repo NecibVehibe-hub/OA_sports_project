@@ -1,27 +1,27 @@
 import { Bars3Icon,XMarkIcon,ChevronDownIcon,ChevronUpIcon } from '@heroicons/react/24/outline'
 import star from '../assets/star.png'
+import alt from '../assets/alt.png'
 import { useImperativeHandle, useState } from 'react';
 import ContactUsButton from './ContactUsButton';
-// import x from '../../public/locales/en/en_translation.json'
-
-// let y=0;
+import { useTranslation } from "react-i18next";
 
 function Navbar(){
+    const { t, i18n } = useTranslation();
     const [menuIsOpen,setMenu]=useState(false);
     const toggleMenu=()=>{
         setMenu(!menuIsOpen);
     }
     const [stateDown,setState]=useState(true)
     const [isActive,setIsActive]=useState("Home")
-    let menuItems=[ 
-        "Home",
-        "Services",
-        "Partners",
-        "News and Reviews",
-        "Pricing",
-        "About Us",
-        "Contact Us",
-    ]
+    let menuItems = [
+        t("navbar.Home"),
+        t("navbar.Services"),
+        t("navbar.Partners"),
+        t("navbar.NewsAndReviews"),
+        t("navbar.Pricing"),
+        t("navbar.AboutUs"),
+        t("navbar.ContactUs"),
+    ];
     let languages = [
         "Türkçe",
         "English",
@@ -41,7 +41,7 @@ function Navbar(){
     return(
         <div className='w-full flex justify-self-center flex-col'>
             <nav className={`w-full h-20 border-b  bg-blackBg flex flex-row items-center justify-self-center justify-between px-4`}>
-                <img src={star} className='w-18 h-18' ></img>
+                <img src={alt} className='w-18 h-18' ></img>
                 <span className='w-12 h-12 flex justify-center items-center'>{menuIsOpen ?  <XMarkIcon className="w-6 h-6 stroke-mainYellow" onClick={toggleMenu}  />:<Bars3Icon className="w-6 h-6 text-mainYellow" onClick={toggleMenu} />}</span>
             </nav>
             <hr className={`${menuIsOpen ? "border-borderColor":"hidden"} w-93.75 flex justify-self-center z-30`} />
@@ -60,3 +60,5 @@ function Navbar(){
     )
 }
 export default Navbar;
+
+//  <button className="m-4" onClick={() => i18n.changeLanguage("en")}>English</button>
