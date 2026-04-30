@@ -8,11 +8,13 @@ import { useTranslation } from "react-i18next";
 function Navbar(){
     const { t, i18n } = useTranslation();
     const [menuIsOpen,setMenu]=useState(false);
+
+    const [stateDown,setState]=useState(true)
+    const [isActive,setIsActive]=useState(t("navbar.Home"))
+    const [language,setLanguage]=useState("en")
     const toggleMenu=()=>{
         setMenu(!menuIsOpen);
     }
-    const [stateDown,setState]=useState(true)
-    const [isActive,setIsActive]=useState("Home")
     let menuItems = [
         t("navbar.Home"),
         t("navbar.Services"),
@@ -23,19 +25,20 @@ function Navbar(){
         t("navbar.ContactUs"),
     ];
     let languages = [
-        "Türkçe",
-        "English",
-        "العربية",
-        "Español",
-        "Français",
-        "Português",
-        "Русский",
-        "Deutsch",
-        "Italiano",
-        "日本語",
-        "한국어",
-        "中文"
-];
+    { name: "tr", label: "Türkçe" },
+    { name: "en", label: "English" },
+    { name: "ar", label: "العربية" },
+    { name: "es", label: "Español" },
+    { name: "fr", label: "Français" },
+    { name: "pt", label: "Português" },
+    { name: "ru", label: "Русский" },
+    { name: "de", label: "Deutsch" },
+    { name: "it", label: "Italiano" },
+    { name: "ja", label: "日本語" },
+    { name: "ko", label: "한국어" },
+    { name: "zh", label: "中文" }
+    ];
+
 
 
     return(
@@ -48,12 +51,12 @@ function Navbar(){
             <nav className={`${menuIsOpen ? "":"hidden"} bg-blackBg h-screen flex items-center pb-3 flex-col pt-4`}>
                 <ul id="menu" className='w-85.75 h-114.75 flex flex-col justify-between '>
                     {menuItems.map((item)=>(<li className={`font-bold leading-none ${isActive==item ? "text-mainYellow":"text-navFont"}`} onClick={()=>setIsActive(item)}>{item}</li>))}
-                    <ContactUsButton text="Contact Us" variant="MenuButton" />
+                    <ContactUsButton text={t("navbar.ContactUs")} variant="MenuButton" />
                 </ul>
-                <span className='w-85.75 mt-6 flex justify-between'><li className='font-bold list-none leading-none text-navFont'>Language</li><button onClick={()=>setState(!stateDown)} className='flex gap-1 text-navFont'><img src="" alt="" /><span className='text-mainYellow'>EG</span>{stateDown ? <ChevronUpIcon className='w-6 h-6 text-mainYellow'></ChevronUpIcon>:<ChevronDownIcon  className='w-6 h-6 text-mainYellow'></ChevronDownIcon>}</button></span>
+                <span className='w-85.75 mt-6 flex justify-between'><li className='font-bold list-none leading-none text-navFont'>{t("navbar.Language")}</li><button onClick={()=>setState(!stateDown)} className='flex gap-1 text-navFont'><img src="" alt="" /><span className='text-mainYellow'>{language}</span>{stateDown ? <ChevronUpIcon className='w-6 h-6 text-mainYellow'></ChevronUpIcon>:<ChevronDownIcon  className='w-6 h-6 text-mainYellow'></ChevronDownIcon>}</button></span>
                 <hr className='h-4' />
                 <div className={`${stateDown? "hidden":""} w-85.75 overflow-x-hidden  flex flex-col gap-3 h-43 overflow-y-auto`}>
-                    {languages.map((language)=>(<li className='text-white'>{language}</li>))}
+                    {languages.map((language)=>(<li onClick={()=>setLanguage(language.name),()=>i18n.changeLanguage(language.name)} className='text-white'>{language.label}</li>))}
                 </div>
             </nav>
         </div>
@@ -61,4 +64,3 @@ function Navbar(){
 }
 export default Navbar;
 
-//  <button className="m-4" onClick={() => i18n.changeLanguage("en")}>English</button>

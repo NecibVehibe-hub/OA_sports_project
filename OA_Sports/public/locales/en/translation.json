@@ -6,6 +6,44 @@
     "NewsAndReviews": "News and Reviews",
     "Pricing": "Pricing",
     "AboutUs": "About Us",
+    "ContactUs": "Contact Us",
+    "Language":"Language"
+  },
+  "HomePage":{
+    "The_power_that_shapes":"The power that shapes",
+    "the_game":"the game.",
+    "Every_move_matters_Every_second_counts":"Every move matters. Every second counts."
+  },
+
+  "Buttons":{
+    "Pricing_Plans":"Pricing Plans",
     "ContactUs": "Contact Us"
+  },
+  "WhoWeAre":{
+    "card1":"Every service we offer is meticulously designed to add value to your career and help you reach the top.",
+    "card2":"Our mission is to accompany professionals at all levels of sport, players, coaches, referees, clubs, and federations in building sustainable success through effective, long-term strategies.",
+    "card3":"Every service we offer is meticulously designed to add value to your career and help you reach the top."
+  },
+
+  "Who":"Who",
+  "We":"We",
+  "Are":"Are",
+  "Our":"Our",
+  "numbers":"numbers",
+  "talks":"talks",
+  "OurNumbersTalks":{
+    "card1":{
+      "Talents":"Talents",
+      "text":"OA Sports is a multifaceted sports consulting and management company that brings together multidisciplinary expertise under one roof."
+    },
+    "card2":{
+      "Talents":"Talents",
+      "text":"OA Sports is a multifaceted sports consulting and management company that brings together multidisciplinary expertise under one roof."
+    },
+    "card3":{
+      "Talents":"Talents",
+      "text":"OA Sports is a multifaceted sports consulting and management company that brings together multidisciplinary expertise under one roof."
+    }
   }
+  
 }

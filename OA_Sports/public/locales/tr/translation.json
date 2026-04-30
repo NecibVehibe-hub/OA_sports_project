@@ -6,6 +6,28 @@
     "NewsAndReviews": "Haberler ve Yorumlar",
     "Pricing": "Fiyatlandırma",
     "AboutUs": "Hakkımızda",
-    "ContactUs": "İletişim"
-  }
+    "ContactUs": "İletişim",
+    "Language":"Dil"
+  },
+  "HomePage": {
+    "The_power_that_shapes": "Şekillendiren güç",
+    "the_game": "oyunu.",
+    "Every_move_matters_Every_second_counts": "Her hamle önemlidir. Her saniye değerlidir."
+  },
+
+  "Buttons": {
+  "Pricing_Plans": "Fiyat Planları",
+  "ContactUs": "İletişim"
+  },
+
+  "WhoWeAre": {
+    "card1": "Sunduğumuz her hizmet, kariyerinize değer katmak ve sizi zirveye taşımak için titizlikle tasarlanmıştır.",
+    "card2": "Misyonumuz; sporun her seviyesindeki profesyonellere—oyuncular, antrenörler, hakemler, kulüpler ve federasyonlar—etkili ve uzun vadeli stratejilerle sürdürülebilir başarı inşa etme yolunda eşlik etmektir.",
+    "card3": "Sunduğumuz her hizmet, kariyerinize değer katmak ve sizi zirveye taşımak için titizlikle tasarlanmıştır."
+  },
+  "Who":"Biz",
+  "We":"Kimiz",
+  "Are":""
+  
+
 }

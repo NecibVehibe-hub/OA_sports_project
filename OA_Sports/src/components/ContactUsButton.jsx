@@ -1,4 +1,8 @@
-function ContactUsButton({text,variant}){
+import { useTranslation } from "react-i18next";
+
+function ContactUsButton({variant}){
+    const {t}=useTranslation();
+
     let baseStyle="h-11 flex justify-center items-center rounded-lg py-4.5"
     
     const variants={
@@ -9,7 +13,7 @@ function ContactUsButton({text,variant}){
 
 
     return(
-        <button className={`${baseStyle} ${variants[variant]}`}>{text}</button>
+        <button className={`${baseStyle} ${variants[variant]}`}>{t("Buttons.ContactUs")}</button>
     )
 }
 export default ContactUsButton;
