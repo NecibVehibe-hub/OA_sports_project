@@ -51,7 +51,7 @@
   },
   "WhatOASportsDo": {
     "What": "Ne",
-    "OA_sports": "OA spor",
+    "OA_sports": "OA sports",
     "do": "yapar",
     "card1": {
       "title": "Oyuncu Hizmetleri",
@@ -76,7 +76,7 @@
   },
   "WhyOASports":{  
     "Why":"Neden",  
-    "OA_sports":"OA Spor",  
+    "OA_sports":"OA Sports",  
     "card1":{  
       "title":"Oyuncu Hizmetleri",  
       "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."  
@@ -100,7 +100,7 @@
   },
 
   "InterestedCard":{  
-    "title":"İlgili misin?",  
+    "title":"İlgini çektı mı?",  
     "text":"Bu sadece başlangıç."  
   },
 
@@ -118,10 +118,20 @@
     "text2":"OA Sports, farklı disiplinlerdeki uzmanlığı bir araya getiren çok yönlü bir spor danışmanlığı ve yönetim şirketidir.",  
     "start":"Ortaklık kurduğu",  
     "center":"SBU Üniversitesi"  
-  }  
-
-
-
+  },
+  "Footer": {
+    "Home": "Ana Sayfa",
+    "Services": "Hizmetler",
+    "Latest_News": "Son Haberler",
+    "Articles": "Makaleler",
+    "Contact_Us": "Bize Ulaşın",
+    "text": "OA Sports, çok disiplinli uzmanlığı tek çatı altında toplayan çok yönlü bir spor danışmanlık ve yönetim şirketidir.",
+    "Fast_Links": "Hızlı Bağlantılar",
+    "Contacts": "İletişim",
+    "Stay_Connected": "Bağlı Kalın",
+    "Terms": "Şartlar",
+    "Privacy_Policy": "Gizlilik Politikası"
+}
 
 }
 

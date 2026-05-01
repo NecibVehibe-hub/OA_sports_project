@@ -115,6 +115,22 @@
     "text2":"OA Sports is a multifaceted sports consulting and management company that brings together multidisciplinary expertise.",
     "start":"Partners with",
     "center":"SBU university"
-  }
+  },
+
+  "Footer":{
+    "Home":"Home",
+    "Services":"Services",
+    "Latest_News":"Latest News",
+    "Articles":"Articles",
+    "Contact_Us":"Contact Us",
+    "text":"OA Sports is a multifaceted sports consulting and management company that brings together multidisciplinary expertise under one roof.",
+    "Fast_Links":"Fast Links",
+    "Contacts":"Contacts",
+    "Stay_Connected":"Stay Connected",
+    "Terms":"Terms",
+    "Privacy_Policy":"Privacy Policy"
+}
+
+
 
 }

@@ -1,6 +1,7 @@
 import newStar from "../assets/newStar.png"
 import { useState } from "react"
 import { FaWhatsapp,FaPhone, FaEnvelope,FaLinkedin, FaCopyright, FaFacebook, FaVk, FaInstagram, FaTiktok, FaSnapchat} from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 function FooterTitles({title}){
     return(
@@ -10,14 +11,16 @@ function FooterTitles({title}){
 
 
 function Footer(){
-    const [isActive,setIsActive]=useState("Home")
+    const {t} = useTranslation();
+    const [isActive,setIsActive]=useState(t("Footer.Home"))
     let menuItems=[ 
-        "Home",
-        "Services",
-        "Latest News",
-        "Articles",
-        "Contact Us",
-    ]
+        t("Footer.Home"),
+        t("Footer.Services"),
+        t("Footer.Latest_News"),
+        t("Footer.Articles"),
+        t("Footer.Contact_Us"),
+    ];
+    
     return(
         <footer className="bg-blackBg text-white w-full h-150 p-4 flex flex-col gap-16">
             <div className="w-full h-full flex flex-col gap-14">
@@ -25,19 +28,19 @@ function Footer(){
                     <div className="flex w-83 flex-col gap-2.5">
                         <img src={newStar} className="w-23  rounded-2xl h-22" alt="" />
                         <p className="text-whiteColor">
-                            OA Sports is a multifaceted sports consulting and management company that brings together multidisciplinary expertise under one roof.
+                            {t("Footer.text")}
                         </p>
                     </div>
                     <div className="w-full h-full flex flex-col gap-3">
                         <div className="flex justify-between w-full h-45.5">
                             <div className="flex flex-col gap-2">
-                                <FooterTitles title={"Fast Links"}/>
+                                <FooterTitles title={t("Footer.Fast_Links")}/> 
                                 <ul className="flex flex-col gap-4">
                                     {menuItems.map((item)=>(<li className={`font-bold leading-none ${isActive==item ? "text-mainYellow":""}`} onClick={()=>setIsActive(item)}>{item}</li>))}
                                 </ul>
                             </div>
                             <div className="w-45.75 flex flex-col items-start gap-3">
-                                <FooterTitles title={"Contacts"}/>
+                                <FooterTitles title={t("Footer.Contacts")}/>
                                 <div className="flex flex-col gap-4">
                                     <span className="flex gap-3 items-center"><FaWhatsapp></FaWhatsapp><h1>055 991 3254</h1></span>
                                     <span className="flex gap-3 items-center"><FaPhone className="rotate-90"></FaPhone><h1>055 991 3254</h1></span>
@@ -46,7 +49,7 @@ function Footer(){
                             </div>
                         </div>
                         <div className="flex flex-col gap-3">
-                            <FooterTitles title={"Stay Connected"}/>
+                            <FooterTitles title={t("Footer.Stay_Connected")}/>
                             <div className="flex gap-3">
                                 <FaLinkedin size={25}></FaLinkedin>
                                 <FaCopyright size={25}></FaCopyright>
@@ -60,8 +63,8 @@ function Footer(){
                     </div>
                 </div>
                 <div className="pt-6 h-8 flex justify-between border-mainYellow border-t-2">
-                    <small>©All Rights Reserved 2025</small>
-                    <small>Privacy Policy <span className="ml-2">Terms</span></small>
+                    <small>©All Rights Reserved 2025 </small>
+                    <small>{t("Footer.Privacy_Policy")} <span className="ml-2">{t("Footer.Terms")}</span></small>
                 </div>
             </div>
         </footer>
