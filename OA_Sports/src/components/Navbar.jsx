@@ -9,7 +9,7 @@ import { menuItems,languages } from './NavData';
 function Navbar(){
     const { t, i18n } = useTranslation();
     const [menuIsOpen,setMenu]=useState(false);
-
+    
     const [stateDown,setState]=useState(true)
     const [isActive,setIsActive]=useState(t("navbar.Home"))
     const [language,setLanguage]=useState("en")
@@ -19,7 +19,7 @@ function Navbar(){
 
 
     return(
-        <div className='w-full flex justify-self-center flex-col md:hidden'>
+        <div className='w-full flex justify-self-center flex-col lg:hidden'>
             <nav className={`w-full h-20 border-b  bg-blackBg flex flex-row items-center justify-self-center justify-between px-4`}>
                 <img src={alt} className='w-18 h-18' ></img>
                 <span className='w-12 h-12 flex justify-center items-center'>{menuIsOpen ?  <XMarkIcon className="w-6 h-6 stroke-mainYellow" onClick={toggleMenu}  />:<Bars3Icon className="w-6 h-6 text-mainYellow" onClick={toggleMenu} />}</span>

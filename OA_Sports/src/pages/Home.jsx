@@ -14,7 +14,7 @@ import { useTranslation } from "react-i18next";
 function Home(){
     const {t} = useTranslation();
     return(
-        <div className="max-w-106.25 bg-bg">
+        <div className="max-w-106.75 bg-bg md:min-w-3xl">
             <div className="relative h-203 w-full flex items-center">
                 <video autoPlay loop muted  playsInline className="absolute inset-0 w-full h-full object-cover"><source src={video} type="video/mp4" /></video>
                 <div className="absolute bottom-0 left-0 w-full h-42  bg-[linear-gradient(180deg,rgba(18,18,18,0)_0%,#121212_87.81%)]"></div>

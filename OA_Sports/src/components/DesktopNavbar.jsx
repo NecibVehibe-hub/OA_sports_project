@@ -11,18 +11,21 @@ function DesktopNavbar(){
     const [flag,setFlag]=useState(en);
     const [language,setLanguage]=useState("en")
     const [stateDown,setState]=useState(true)
+    const [isActive,setIsActive]=useState(t("navbar.Home"))
     return(
-        <nav className="bg-blackBg max-w-640 min-w-3xl flex items-center text-white justify-between px-24  h-20">
+        <nav className="bg-blackBg min-w-250 gap-6 hidden lg:flex items-center text-white justify-between px-24  h-20 xl:gap-40 ">
             <img src={stickyNote} className="rounded-sm" alt="" />
-            
-            <div className="flex w-66.5  gap-12 items-center justify-between">
+            <ul id="menu" className='w-3xl flex gap-6 items-center justify-center flex-row h-3/5 flex-wrap'>
+                {menuItems.map((item)=>(<li className={`font-bold cursor-pointer leading-none ${isActive==t(item)? "text-mainYellow":"text-navFont"}`} onClick={()=>setIsActive(t(item))}>{t(item)}</li>))}
+            </ul>
+            <div className="flex w-66.5 gap-3 items-center justify-between">
                 <div className="w-22 h-6">
                     <span className='flex justify-between '>
                         <span className="flex items-center justify-center gap-2">
                             <img src={flag} className="w-6 h-6" alt="" />
                             {language.toUpperCase()}
                         </span>
-                        <button onClick={()=>setState(!stateDown)} className='flex gap-1 text-navFont'>{stateDown ? <ChevronDownIcon  className='w-6 h-6 text-mainYellow'></ChevronDownIcon>:<ChevronUpIcon className='w-6 h-6 text-mainYellow'></ChevronUpIcon>}</button>
+                        <button onClick={()=>setState(!stateDown)} className='flex gap-1 cursor-pointer text-navFont'>{stateDown ? <ChevronDownIcon  className='w-6 h-6 text-mainYellow'></ChevronDownIcon>:<ChevronUpIcon className='w-6 h-6 text-mainYellow'></ChevronUpIcon>}</button>
                     </span>
                     <div className={`${stateDown? "hidden":""} w-43 mt-5 py-2 px-3 list-none absolute z-50 flex flex-col gap-3 shadow-xs  shadow-openYellow bg-blackBg `}>
                         {languages.map((language)=>(<li onClick={()=>{setLanguage(language.name);i18n.changeLanguage(language.name);setFlag(language.img)}} className='text-white flex items-center gap-2 cursor-pointer hover:text-mainYellow'><img src={language.img} className="w-5 h-5" alt="" />{language.label}</li>))}

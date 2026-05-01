@@ -1,0 +1,128 @@
+{
+  "navbar": {
+    "Home": "Início",
+    "Services": "Serviços",
+    "Partners": "Parceiros",
+    "NewsAndReviews": "Notícias e Avaliações",
+    "Pricing": "Preços",
+    "AboutUs": "Sobre Nós",
+    "ContactUs": "Fale Conosco",
+    "Language": "Idioma"
+  },
+  "HomePage": {
+    "The_power_that_shapes": "O poder que molda",
+    "the_game": "o jogo.",
+    "Every_move_matters_Every_second_counts": "Cada movimento importa. Cada segundo conta."
+  },
+  "Buttons": {
+    "Pricing_Plans": "Planos de Preços",
+    "ContactUs": "Fale Conosco",
+    "BuyNowButton": "Comprar Agora"
+  },
+  "WhoWeAre": {
+    "card1": "Cada serviço que oferecemos é meticulosamente projetado para agregar valor à sua carreira e ajudá-lo a chegar ao topo.",
+    "card2": "Nossa missão é acompanhar profissionais em todos os níveis do esporte, jogadores, treinadores, árbitros, clubes e federações, na construção de um sucesso sustentável por meio de estratégias eficazes e de longo prazo.",
+    "card3": "Cada serviço que oferecemos é meticulosamente projetado para agregar valor à sua carreira e ajudá-lo a chegar ao topo.",
+    "Who": "Quem",
+    "We": "Somos",
+    "Are": "Nós"
+  },
+  "OurNumbersTalks": {
+    "Our": "Nossos",
+    "numbers": "números",
+    "talks": "falam",
+    "card1": {
+      "Talents": "Talentos",
+      "text": "OA Sports é uma empresa multifacetada de consultoria e gestão esportiva que reúne expertise multidisciplinar sob o mesmo teto."
+    },
+    "card2": {
+      "Talents": "Talentos",
+      "text": "OA Sports é uma empresa multifacetada de consultoria e gestão esportiva que reúne expertise multidisciplinar sob o mesmo teto."
+    },
+    "card3": {
+      "Talents": "Talentos",
+      "text": "OA Sports é uma empresa multifacetada de consultoria e gestão esportiva que reúne expertise multidisciplinar sob o mesmo teto."
+    }
+  },
+  "WhatOASportsDo": {
+    "What": "O que a",
+    "OA_sports": "OA Sports",
+    "do": "faz",
+    "card1": {
+      "title": "Serviços para Jogadores",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card2": {
+      "title": "Serviços para Jogadores",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card3": {
+      "title": "Serviços para Jogadores",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card4": {
+      "title": "Serviços para Jogadores",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card5": {
+      "title": "Serviços para Jogadores",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  },
+  "WhyOASports": {
+    "Why": "Por que",
+    "OA_sports": "OA Sports",
+    "card1": {
+      "title": "Serviços para Jogadores",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card2": {
+      "title": "Serviços para Jogadores",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card3": {
+      "title": "Serviços para Jogadores",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card4": {
+      "title": "Serviços para Jogadores",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card5": {
+      "title": "Serviços para Jogadores",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  },
+  "InterestedCard": {
+    "title": "Interessado?",
+    "text": "Isso é apenas o começo."
+  },
+  "OurLatestNews": {
+    "Our": "Nossas",
+    "latest": "últimas",
+    "news": "notícias",
+    "title": "Um novo talento se juntou a nós",
+    "text": "OA Sports é uma empresa multifacetada de consultoria e gestão esportiva que reúne expertise multidisciplinar sob o mesmo teto."
+  },
+  "OurPartnership": {
+    "Our": "Nossa",
+    "Partnership": "Parceria",
+    "text1": "OA Sports é uma empresa multifacetada de consultoria e gestão esportiva que reúne expertise multidisciplinar sob o mesmo teto, OA Sports é uma empresa multifacetada de consultoria e gestão esportiva que reúne expertise multidisciplinar sob o mesmo teto.",
+    "text2": "OA Sports é uma empresa multifacetada de consultoria e gestão esportiva que reúne expertise multidisciplinar.",
+    "start": "Parceiros com",
+    "center": "Universidade SBU"
+  },
+  "Footer": {
+    "Home": "Início",
+    "Services": "Serviços",
+    "Latest_News": "Últimas Notícias",
+    "Articles": "Artigos",
+    "Contact_Us": "Fale Conosco",
+    "text": "OA Sports é uma empresa multifacetada de consultoria e gestão esportiva que reúne expertise multidisciplinar sob o mesmo teto.",
+    "Fast_Links": "Links Rápidos",
+    "Contacts": "Contatos",
+    "Stay_Connected": "Fique Conectado",
+    "Terms": "Termos e Condições",
+    "Privacy_Policy": "Política de Privacidade"
+  }
+}

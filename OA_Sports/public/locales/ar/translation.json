@@ -1,0 +1,128 @@
+{
+  "navbar": {
+    "Home": "الرئيسية",
+    "Services": "الخدمات",
+    "Partners": "الشركاء",
+    "NewsAndReviews": "الأخبار والتقييمات",
+    "Pricing": "الأسعار",
+    "AboutUs": "من نحن",
+    "ContactUs": "اتصل بنا",
+    "Language": "اللغة"
+  },
+  "HomePage": {
+    "The_power_that_shapes": "القوة التي تصنع",
+    "the_game": "اللعبة.",
+    "Every_move_matters_Every_second_counts": "كل حركة تهم. كل ثانية تحسب."
+  },
+  "Buttons": {
+    "Pricing_Plans": "خطط الأسعار",
+    "ContactUs": "اتصل بنا",
+    "BuyNowButton": "اشتر الآن"
+  },
+  "WhoWeAre": {
+    "card1": "كل خدمة نقدمها مصممة بعناية لإضافة قيمة إلى مسيرتك المهنية ومساعدتك على الوصول إلى القمة.",
+    "card2": "مهمتنا هي مرافقة المحترفين في جميع المستويات الرياضية، من لاعبين ومدربين وحكام وأندية واتحادات، في بناء نجاح مستدام من خلال استراتيجيات فعّالة وطويلة الأمد.",
+    "card3": "كل خدمة نقدمها مصممة بعناية لإضافة قيمة إلى مسيرتك المهنية ومساعدتك على الوصول إلى القمة.",
+    "Who": "من",
+    "We": "نحن",
+    "Are": ""
+  },
+  "OurNumbersTalks": {
+    "Our": "أرقامنا",
+    "numbers": "تتحدث",
+    "talks": "عنّا",
+    "card1": {
+      "Talents": "المواهب",
+      "text": "OA Sports شركة استشارات وإدارة رياضية متعددة الأوجه تجمع خبرات متعددة التخصصات تحت سقف واحد."
+    },
+    "card2": {
+      "Talents": "المواهب",
+      "text": "OA Sports شركة استشارات وإدارة رياضية متعددة الأوجه تجمع خبرات متعددة التخصصات تحت سقف واحد."
+    },
+    "card3": {
+      "Talents": "المواهب",
+      "text": "OA Sports شركة استشارات وإدارة رياضية متعددة الأوجه تجمع خبرات متعددة التخصصات تحت سقف واحد."
+    }
+  },
+  "WhatOASportsDo": {
+    "What": "ما الذي",
+    "OA_sports": "OA Sports",
+    "do": "تفعله",
+    "card1": {
+      "title": "خدمات اللاعبين",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card2": {
+      "title": "خدمات اللاعبين",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card3": {
+      "title": "خدمات اللاعبين",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card4": {
+      "title": "خدمات اللاعبين",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card5": {
+      "title": "خدمات اللاعبين",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  },
+  "WhyOASports": {
+    "Why": "لماذا",
+    "OA_sports": "OA Sports",
+    "card1": {
+      "title": "خدمات اللاعبين",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card2": {
+      "title": "خدمات اللاعبين",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card3": {
+      "title": "خدمات اللاعبين",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card4": {
+      "title": "خدمات اللاعبين",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card5": {
+      "title": "خدمات اللاعبين",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  },
+  "InterestedCard": {
+    "title": "هل أنت مهتم؟",
+    "text": "هذه مجرد البداية."
+  },
+  "OurLatestNews": {
+    "Our": "أحدث",
+    "latest": "أخبارنا",
+    "news": "",
+    "title": "موهبة جديدة انضمت إلينا",
+    "text": "OA Sports شركة استشارات وإدارة رياضية متعددة الأوجه تجمع خبرات متعددة التخصصات تحت سقف واحد."
+  },
+  "OurPartnership": {
+    "Our": "شراكاتنا",
+    "Partnership": "",
+    "text1": "OA Sports شركة استشارات وإدارة رياضية متعددة الأوجه تجمع خبرات متعددة التخصصات تحت سقف واحد، OA Sports شركة استشارات وإدارة رياضية متعددة الأوجه تجمع خبرات متعددة التخصصات تحت سقف واحد.",
+    "text2": "OA Sports شركة استشارات وإدارة رياضية متعددة الأوجه تجمع خبرات متعددة التخصصات.",
+    "start": "شركاء مع",
+    "center": "جامعة SBU"
+  },
+  "Footer": {
+    "Home": "الرئيسية",
+    "Services": "الخدمات",
+    "Latest_News": "آخر الأخبار",
+    "Articles": "المقالات",
+    "Contact_Us": "اتصل بنا",
+    "text": "OA Sports شركة استشارات وإدارة رياضية متعددة الأوجه تجمع خبرات متعددة التخصصات تحت سقف واحد.",
+    "Fast_Links": "روابط سريعة",
+    "Contacts": "جهات الاتصال",
+    "Stay_Connected": "ابقَ على تواصل",
+    "Terms": "الشروط والأحكام",
+    "Privacy_Policy": "سياسة الخصوصية"
+  }
+}
