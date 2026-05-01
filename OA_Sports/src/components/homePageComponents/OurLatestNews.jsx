@@ -1,5 +1,7 @@
 import Title from "../Titels";
 import ball from "../../assets/ball.jpg";
+import { useTranslation } from "react-i18next";
+
 
 
 
@@ -19,13 +21,14 @@ function Card({title,text,paragraph,img}){
 
 
 function OurLatestNews(){
+    const {t} = useTranslation();
     return(
         <div className="w-full py-6 px-4 flex flex-col gap-4">
-            <Title start={"Our"} center={"latest"} end={"news"} />
+            <Title start={t("OurLatestNews.Our")} center={t("OurLatestNews.latest")} end={t("OurLatestNews.news")} />
             <div className="flex flex-col gap-4">
-                <Card title={"A New talent has joined"} text={"OA Sports is a multifaceted sports consulting and management company that brings together multidisciplinary expertise under one roof."}/>
-                <Card title={"A New talent has joined"} text={"OA Sports is a multifaceted sports consulting and management company that brings together multidisciplinary expertise under one roof."}/>
-                <Card title={"A New talent has joined"} text={"OA Sports is a multifaceted sports consulting and management company that brings together multidisciplinary expertise under one roof."}/>
+                <Card title={t("OurLatestNews.title")} text={t("OurLatestNews.text")}/>
+                <Card title={t("OurLatestNews.title")}  text={t("OurLatestNews.text")}/>
+                <Card title={t("OurLatestNews.title")}  text={t("OurLatestNews.text")}/>
             </div>
         </div>
     )

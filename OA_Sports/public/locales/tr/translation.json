@@ -17,8 +17,9 @@
 
   "Buttons": {
   "Pricing_Plans": "Fiyat Planları",
-  "ContactUs": "İletişim"
-  },
+  "ContactUs": "İletişim",
+  "BuyNowButton":"Satın Al"
+},
 
   "WhoWeAre": {
     "card1": "Sunduğumuz her hizmet, kariyerinize değer katmak ve sizi zirveye taşımak için titizlikle tasarlanmıştır.",
@@ -96,6 +97,27 @@
       "title":"Oyuncu Hizmetleri",  
       "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."  
     }  
+  },
+
+  "InterestedCard":{  
+    "title":"İlgili misin?",  
+    "text":"Bu sadece başlangıç."  
+  },
+
+  "OurLatestNews":{  
+    "Our":"Bizim",  
+    "latest":"son",  
+    "news":"haberler",  
+    "title":"Yeni bir yetenek katıldı",  
+    "text":"OA Sports, çok yönlü uzmanlığı tek bir çatı altında toplayan çok disiplinli bir spor danışmanlığı ve yönetim şirketidir"  
+  }, 
+  "OurPartnership":{  
+    "Our":"Bizim",  
+    "Partnership":"Ortaklık",  
+    "text1":"OA Sports, çok yönlü bir spor danışmanlığı ve yönetim şirketidir; farklı disiplinlerdeki uzmanlığı tek çatı altında bir araya getirir. OA Sports, çok yönlü bir spor danışmanlığı ve yönetim şirketidir; farklı disiplinlerdeki uzmanlığı tek çatı altında bir araya getirir.",  
+    "text2":"OA Sports, farklı disiplinlerdeki uzmanlığı bir araya getiren çok yönlü bir spor danışmanlığı ve yönetim şirketidir.",  
+    "start":"Ortaklık kurduğu",  
+    "center":"SBU Üniversitesi"  
   }  
 
 

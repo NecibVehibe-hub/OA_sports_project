@@ -17,7 +17,8 @@
 
   "Buttons":{
     "Pricing_Plans":"Pricing Plans",
-    "ContactUs": "Contact Us"
+    "ContactUs": "Contact Us",
+    "BuyNowButton":"Buy Now"
   },
   "WhoWeAre":{
     "card1":"Every service we offer is meticulously designed to add value to your career and help you reach the top.",
@@ -93,5 +94,27 @@
       "title":"Players Services",
       "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
+  },
+  "InterestedCard":{
+    "title":"Interested?",
+    "text":"That’s just the start."
+  },
+
+  "OurLatestNews":{
+    "Our":"Our",
+    "latest":"latest",
+    "news":"news",
+    "title":"A New talent has joined",
+    "text":"OA Sports is a multifaceted sports consulting and management company that brings together multidisciplinary expertise under one roof"
+  },
+
+  "OurPartnership":{
+    "Our":"Our",
+    "Partnership":"Partnership",
+    "text1":"OA Sports is a multifaceted sports consulting and management company that brings together multidisciplinary expertise under one roof, OA Sports is a multifaceted sports consulting and management company that brings together multidisciplinary expertise under one roof.",
+    "text2":"OA Sports is a multifaceted sports consulting and management company that brings together multidisciplinary expertise.",
+    "start":"Partners with",
+    "center":"SBU university"
   }
+
 }

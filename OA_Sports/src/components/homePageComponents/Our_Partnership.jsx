@@ -3,6 +3,7 @@ import newStar from "../../assets/newStar.png"
 import saglik from "../../assets/saglik.png"
 import boss from "../../assets/boss.jpg"
 import PricingPlansButton from "../Pricing_Plans_Button";
+import { useTranslation } from "react-i18next";
 function Imgs(){
     return(
         <>
@@ -13,11 +14,12 @@ function Imgs(){
 
 
 function OurPartnership({img1,img2}){
+    const {t} = useTranslation();
     img1=newStar;
     img2=saglik;
     return(
         <div className="w-full h-270 py-6 px-4 flex flex-col gap-4">
-            <Title start={"Our"} center={"Partnership"}/>
+            <Title start={t("OurPartnership.Our")} center={t("OurPartnership.Partnership")}/>
             <div className="w-full h-37.75 flex justify-center items-center flex-row-reverse gap-6">
                 <img src={img1} className="object-cover w-36.25 h-34.25" alt="" />
                 <img src={img2} className="w-30.25 h-30.25" alt="" />
@@ -29,12 +31,12 @@ function OurPartnership({img1,img2}){
                 <Imgs/>
             </div>
             <div className="flex flex-col gap-3 w-full h-90">
-                <Title start={'Partners with'} center={"SBU university !"}/>
+                <Title start={t("OurPartnership.start")} center={t("OurPartnership.center")}/>
                 <div className="flex flex-col gap-5">
                     <div className="text-whiteColor">
-                        <p>OA Sports is a multifaceted sports consulting and management company that brings together multidisciplinary expertise under one roof, OA Sports is a multifaceted sports consulting and management company that brings together multidisciplinary expertise under one roof.</p>
+                        <p>{t("OurPartnership.text1")}</p>
                         <br />
-                        <p>OA Sports is a multifaceted sports consulting and management company that brings together multidisciplinary expertise.</p>
+                        <p>{t("OurPartnership.text2")}</p>
                     </div>
                     <PricingPlansButton variant={"HaveShadow"}/>
                 </div>
