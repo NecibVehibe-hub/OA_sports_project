@@ -13,9 +13,9 @@ function DesktopNavbar(){
     const [stateDown,setState]=useState(true)
     const [isActive,setIsActive]=useState(t("navbar.Home"))
     return(
-        <nav className="bg-blackBg min-w-250 gap-6 hidden lg:flex items-center text-white justify-between px-24  h-20 xl:gap-40 ">
+        <nav className="bg-blackBg min-w-255.75 mx-auto gap-6 hidden lg:flex  items-center text-white justify-between px-24  h-20 xl:gap-40 ">
             <img src={stickyNote} className="rounded-sm" alt="" />
-            <ul id="menu" className='w-3xl flex gap-6 items-center justify-center flex-row h-3/5 flex-wrap'>
+            <ul id="menu" className='lg:w-xl 2xl:w-3xl flex gap-6 items-center justify-center flex-row h-3/5 flex-wrap'>
                 {menuItems.map((item)=>(<li className={`font-bold cursor-pointer leading-none ${isActive==t(item)? "text-mainYellow":"text-navFont"}`} onClick={()=>setIsActive(t(item))}>{t(item)}</li>))}
             </ul>
             <div className="flex w-66.5 gap-3 items-center justify-between">
