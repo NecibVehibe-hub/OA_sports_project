@@ -15,9 +15,11 @@ function App() {
   },[i18n.language]);
     return(
         <>
-            <DesktopNavbar/>
-            <Navbar/>
-            <Home/>
+            <div className='flex flex-col items-center'>
+                <DesktopNavbar/>
+                <Navbar/>
+                <Home/>
+            </div>
         </>
     )
 }

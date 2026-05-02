@@ -14,14 +14,14 @@ import { useTranslation } from "react-i18next";
 function Home(){
     const {t} = useTranslation();
     return(
-        <div className="max-w-90 mx-auto sm:max-w-lg bg-bg md:min-w-3xl lg:min-w-full lg:mx-auto">
+        <div className="mt-20 md:mt-0 w-93.25 xs:w-106.75 bg-bg md:w-3xl lg:w-5xl xl:w-full">
             <div className="relative h-203 w-full flex items-center">
                 <video autoPlay loop muted  playsInline className="absolute inset-0 w-full h-full object-cover"><source src={video} type="video/mp4" /></video>
                 <div className="absolute bottom-0 left-0 w-full h-42  bg-[linear-gradient(180deg,rgba(18,18,18,0)_0%,#121212_87.81%)]"></div>
-                <div className="h-42.75 w-full relative z-10 flex flex-col items-center gap-8">
+                <div className="h-42.75 w-full relative z-10 flex flex-col items-center md:bottom-18 gap-8">
                     <div className="flex flex-col gap-3">
-                        <span className="text-center text-mainYellow font-platypiItalic text-[26px]">{t("HomePage.The_power_that_shapes")} <br />{t("HomePage.the_game")}</span>
-                        <span className="text-whiteColor">{t("HomePage.Every_move_matters_Every_second_counts")}</span>
+                        <span className="text-center text-mainYellow font-platypiItalic text-[26px] md:text-[40px]">{t("HomePage.The_power_that_shapes")} <br />{t("HomePage.the_game")}</span>
+                        <span className="text-whiteColor md:text-2xl">{t("HomePage.Every_move_matters_Every_second_counts")}</span>
                     </div>
                     <div className="w-66 h-11 flex justify-between ">
                         <PricingPlansButton/>
@@ -41,3 +41,4 @@ function Home(){
     )
 }
 export default Home;
+// w-full mx-auto sm:max-w-xl md:max-w-3xl lg:max-w-full px-4 sm:px-6

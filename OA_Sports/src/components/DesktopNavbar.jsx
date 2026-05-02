@@ -11,9 +11,9 @@ function DesktopNavbar(){
     const [flag,setFlag]=useState(en);
     const [language,setLanguage]=useState("en")
     const [stateDown,setState]=useState(true)
-    const [isActive,setIsActive]=useState(t("navbar.Home"))
+    const [isActive,setIsActive]=useState(t("navbar.Home")) 
     return(
-        <nav className="bg-blackBg min-w-255.75 mx-auto gap-6 hidden lg:flex  items-center text-white justify-between px-24  h-20 xl:gap-40 ">
+        <nav className="fixed top-0 w-full z-50 h-20 hidden lg:flex  items-center text-white justify-between gap-4 px-24  bg-blackBg">
             <img src={stickyNote} className="rounded-sm" alt="" />
             <ul id="menu" className='lg:w-xl 2xl:w-3xl flex gap-6 items-center justify-center flex-row h-3/5 flex-wrap'>
                 {menuItems.map((item)=>(<li className={`font-bold cursor-pointer leading-none ${isActive==t(item)? "text-mainYellow":"text-navFont"}`} onClick={()=>setIsActive(t(item))}>{t(item)}</li>))}
@@ -39,3 +39,4 @@ function DesktopNavbar(){
 }
 
 export default DesktopNavbar;
+// bg-blackBg min-w-[80%] mx-auto gap-4 hidden lg:flex   items-center text-white justify-between px-24  h-20 xl:gap-40 
