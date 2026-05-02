@@ -10,6 +10,7 @@ body{
 
 
 @theme{
+    --breakpoint-3xl:90rem;
     --breakpoint-xs: 25rem;
     --color-mainYellow:#D2FF00;
     --color-blackBg:#1c1c1c;

@@ -18,10 +18,10 @@ function Home(){
             <div className="relative h-203 w-full flex items-center">
                 <video autoPlay loop muted  playsInline className="absolute inset-0 w-full h-full object-cover"><source src={video} type="video/mp4" /></video>
                 <div className="absolute bottom-0 left-0 w-full h-42  bg-[linear-gradient(180deg,rgba(18,18,18,0)_0%,#121212_87.81%)]"></div>
-                <div className="h-42.75 w-full relative z-10 flex flex-col items-center md:bottom-18 gap-8">
-                    <div className="flex flex-col gap-3">
-                        <span className="text-center text-mainYellow font-platypiItalic text-[26px] md:text-[40px]">{t("HomePage.The_power_that_shapes")} <br />{t("HomePage.the_game")}</span>
-                        <span className="text-whiteColor md:text-2xl">{t("HomePage.Every_move_matters_Every_second_counts")}</span>
+                <div className="h-42.75 w-full relative z-10 flex flex-col items-center md:bottom-18 3xl:bottom-32 gap-8">
+                    <div className="flex flex-col 3xl:items-center gap-3">
+                        <span className="text-center text-mainYellow font-platypiItalic text-[26px] md:text-[40px] 3xl:text-6xl">{t("HomePage.The_power_that_shapes")} <br className="3xl:hidden" />{t("HomePage.the_game")}</span>
+                        <span className="text-whiteColor md:text-2xl 3xl:text-4xl 3xl:font-platypiItalic">{t("HomePage.Every_move_matters_Every_second_counts")}</span>
                     </div>
                     <div className="w-66 h-11 flex justify-between ">
                         <PricingPlansButton/>

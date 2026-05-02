@@ -26,20 +26,23 @@ function WhatOASportsDo(){
         {title:t("WhatOASportsDo.card3.title"), text:t("WhatOASportsDo.card3.text"), img:img},
         {title:t("WhatOASportsDo.card4.title"), text:t("WhatOASportsDo.card4.text"), img:img},
         {title:t("WhatOASportsDo.card5.title"), text:t("WhatOASportsDo.card5.text"), img:img},
+        {title:t("WhatOASportsDo.card5.title"), text:t("WhatOASportsDo.card5.text"), img:img},
+        {title:t("WhatOASportsDo.card5.title"), text:t("WhatOASportsDo.card5.text"), img:img},
+        {title:t("WhatOASportsDo.card5.title"), text:t("WhatOASportsDo.card5.text"), img:img},
     ]
 
     const [IsOpen,setIsOpen] = useState(0)
 
     return(
-        <div className="w-full h-215 md:h-100 bg-bg py-6 px-4 flex flex-col gap-3">
-        <Title start={t("WhatOASportsDo.What")} center={t("WhatOASportsDo.OA_sports")} end={t("WhatOASportsDo.do")}/>
-        <div className="w-85.75 h-189 flex flex-col md:w-full md:flex-row gap-4">
-            {cardsList.map((card,index)=>(
-            <div key={index} className={`w-full  ${IsOpen!==index ?"md:h-full":""}  ${IsOpen===index ? "h-80":"h-25"}`} onClick={()=>setIsOpen(index)} >
-                <Card {...card} isOpen={IsOpen===index}/>
+        <div className="w-full h-215 md:h-100 bg-bg py-6 px-4 flex flex-col gap-3 3xl:py-12 3xl:px-24 3xl:h-148.5 3xl:gap-8">
+            <Title start={t("WhatOASportsDo.What")} center={t("WhatOASportsDo.OA_sports")} end={t("WhatOASportsDo.do")}/>
+            <div className="w-85.75 h-189 flex flex-col md:w-full md:flex-row gap-4 3xl:gap-3.5">
+                {cardsList.map((card,index)=>(
+                <div key={index} className={`w-full 3xl:h-100  ${IsOpen!==index ?"md:h-full":""}  ${IsOpen===index ? ("h-80"):"h-25"}`} onClick={()=>setIsOpen(index)} >
+                    <Card {...card} isOpen={IsOpen===index}/>
+                </div>
+                ))}
             </div>
-            ))}
-        </div>
         </div>
     )
 }

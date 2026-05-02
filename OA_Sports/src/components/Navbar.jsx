@@ -25,7 +25,7 @@ function Navbar(){
                 <span className='w-12 h-12 flex justify-center items-center'>{menuIsOpen ?  <XMarkIcon className="w-6 h-6 stroke-mainYellow" onClick={toggleMenu}  />:<Bars3Icon className="w-6 h-6 text-mainYellow" onClick={toggleMenu} />}</span>
             </nav>
             <hr className={`${menuIsOpen ? "border-borderColor":"hidden"} w-full flex justify-self-center z-30`} />
-            <nav className={`${menuIsOpen ? "":"hidden"} bg-blackBg h-screen flex items-center pb-3 flex-col pt-4`}>
+            <nav className={`${menuIsOpen ? "":"hidden"} bg-blackBg  h-screen  overflow-y-auto flex items-center pb-3 flex-col pt-4`}>
                 <ul id="menu" className='w-85.75 h-114.75 flex flex-col  justify-between '>
                     {menuItems.map((item)=>(<li className={`font-bold leading-none ${isActive==t(item)? "text-mainYellow":"text-navFont"}`} onClick={()=>setIsActive(t(item))}>{t(item)}</li>))}
                     <ContactUsButton text={t("navbar.ContactUs")} variant="MenuButton" />

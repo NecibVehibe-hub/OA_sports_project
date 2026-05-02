@@ -8,7 +8,7 @@ function ContactUsButton({variant}){
     const variants={
         MenuButton:"w-full font-bold px-6  bg-mainYellow shadow-[0_2px_4px_0_rgba(195,255,26,1)] text-blackBg",
         HomePageButton:"w-29 h-11 bg-none  text-mainYellow  border md:border-3 rounded-lg md:font-bold ",
-        DeskTopNavButton:"w-[133px] h-12 font-bold bg-mainYellow shadow-[0_2px_4px_0_rgba(195,255,26,1)] text-blackBg"
+        DeskTopNavButton:"lg:w-[120px] xl:h-12 lg:min-h-10 lg:p-2 font-bold  bg-mainYellow shadow-[0_2px_4px_0_rgba(195,255,26,1)] text-blackBg"
     }
 
 

@@ -13,12 +13,12 @@ function DesktopNavbar(){
     const [stateDown,setState]=useState(true)
     const [isActive,setIsActive]=useState(t("navbar.Home")) 
     return(
-        <nav className="fixed top-0 w-full z-50 h-20 hidden lg:flex  items-center text-white justify-between gap-4 px-24  bg-blackBg">
-            <img src={stickyNote} className="rounded-sm" alt="" />
-            <ul id="menu" className='lg:w-xl 2xl:w-3xl flex gap-6 items-center justify-center flex-row h-3/5 flex-wrap'>
+        <nav className="fixed top-0 w-full z-50 h-20 hidden lg:flex  items-center text-whiteColor justify-between gap-4 lg:px-4 xl:px-24  bg-blackBg">
+            <img src={stickyNote} className="rounded-sm lg:w-10 3xl:w-14" alt="" />
+            <ul id="menu" className='lg:min-w-xl 2xl:w-3xl flex gap-3 3xl:gap-6 items-center justify-center flex-row h-3/5 flex-wrap'>
                 {menuItems.map((item)=>(<li className={`font-bold cursor-pointer leading-none ${isActive==t(item)? "text-mainYellow":"text-navFont"}`} onClick={()=>setIsActive(t(item))}>{t(item)}</li>))}
             </ul>
-            <div className="flex w-66.5 gap-3 items-center justify-between">
+            <div className="flex max-w-66.5  gap-3 3xl:gap-10 items-center justify-between">
                 <div className="w-22 h-6">
                     <span className='flex justify-between '>
                         <span className="flex items-center justify-center gap-2">
