@@ -23,7 +23,7 @@ function Footer(){
     
     return(
         <footer className="bg-blackBg text-white w-full h-150 p-4 flex flex-col gap-16 3xl:py-16  3xl:px-24 3xl:gap-16 3xl:w-360 3xl:h-112">
-            <div className="w-full h-full flex flex-col gap-14 3xl:py-16  3xl:px-24 3xl:gap-16">
+            <div className="w-full h-full flex flex-col gap-14 3xl:py-5 3xl:px-24 3xl:gap-16">
                 <div className="w-full h-115 flex flex-col gap-8 3xl:h-59.5 3xl:gap-16 3xl:flex-row">
                     <div className="flex w-83 flex-col gap-2.5 3xl:w-87.5">
                         <img src={newStar} className="w-23  rounded-2xl h-22" alt="" />

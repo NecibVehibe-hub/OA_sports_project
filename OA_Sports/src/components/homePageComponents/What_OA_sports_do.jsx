@@ -38,7 +38,7 @@ function WhatOASportsDo(){
             <Title start={t("WhatOASportsDo.What")} center={t("WhatOASportsDo.OA_sports")} end={t("WhatOASportsDo.do")}/>
             <div className="w-85.75 h-189 flex flex-col md:w-full md:flex-row gap-4 3xl:gap-3.5">
                 {cardsList.map((card,index)=>(
-                <div key={index} className={`w-full 3xl:h-100  ${IsOpen!==index ?"md:h-full":""}  ${IsOpen===index ? ("h-80"):"h-25"}`} onClick={()=>setIsOpen(index)} >
+                <div key={index} className={`w-full 3xl:h-100  ${IsOpen!==index ?"md:h-full":""}  ${IsOpen===index ? ("min-h-80"):"h-25"}`} onClick={()=>setIsOpen(index)} >
                     <Card {...card} isOpen={IsOpen===index}/>
                 </div>
                 ))}

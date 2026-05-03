@@ -4,10 +4,15 @@ import saglik from "../../assets/saglik.png"
 import boss from "../../assets/boss.jpg"
 import PricingPlansButton from "../Pricing_Plans_Button";
 import { useTranslation } from "react-i18next";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { EffectCoverflow } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/effect-coverflow";
+
 function Imgs(){
     return(
         <>
-            <img src={boss} className="rounded-3xl" alt="" />
+            <img src={boss} className="h-full object-cover  overflow-hidden rounded-3xl" alt="" />
         </>
     )
 }
@@ -26,12 +31,50 @@ function OurPartnership({img1,img2}){
                 <img src={img1} className="object-cover w-36.25 h-34.25" alt="" />
                 <img src={img2} className="w-30.25 h-30.25" alt="" />
             </div>
-            <div className="h-93   no-scrollbar overflow-auto overflow-x-aut flex gap-4">
-                <Imgs/>
-                <Imgs/>
-                <Imgs/>
-                <Imgs/>
-            </div>
+            <Swiper
+                effect="coverflow"
+                grabCursor={true}
+                centeredSlides={true}
+                slidesPerView="auto"
+                loop={true}
+                initialSlide={2} 
+                spaceBetween={-80}
+                breakpoints={{
+                0: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+                },
+                768: {
+                slidesPerView: 3, 
+                spaceBetween: 20, 
+                },
+            }}
+                coverflowEffect={{
+                    rotate:30,
+                    stretch: 0,
+                    depth: 250,
+                    modifier: 1,
+                    slideShadows:true,
+                }}
+                modules={[EffectCoverflow]}
+                className="w-full h-93 my-6"
+            >
+            <SwiperSlide>
+                <Imgs />
+            </SwiperSlide>
+            <SwiperSlide>
+                <Imgs />
+            </SwiperSlide>
+            <SwiperSlide>
+                <Imgs />
+            </SwiperSlide>
+            <SwiperSlide>
+                <Imgs />
+            </SwiperSlide>
+            <SwiperSlide>
+                <Imgs />
+            </SwiperSlide>
+            </Swiper>
             <div className="flex flex-col gap-3 w-full h-90">
                 <Title start={t("OurPartnership.start")} center={t("OurPartnership.center")}/>
                 <div className="flex flex-col gap-5">
