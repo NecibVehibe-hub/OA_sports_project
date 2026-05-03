@@ -10,6 +10,7 @@ import OurLatestNews from "../components/homePageComponents/OurLatestNews";
 import OurPartnership from "../components/homePageComponents/Our_Partnership";
 import Footer from "../components/Footer";
 import { useTranslation } from "react-i18next";
+import OurLatestNewsForDesktop from "../components/homePageComponents/OurLatestNewsForDesktop";
 
 function Home(){
     const {t} = useTranslation();
@@ -35,6 +36,7 @@ function Home(){
             <WhyOASports/>
             <InterestedCard/>
             <OurLatestNews/>
+            <OurLatestNewsForDesktop/>
             <OurPartnership/>
             <Footer/>
         </div>

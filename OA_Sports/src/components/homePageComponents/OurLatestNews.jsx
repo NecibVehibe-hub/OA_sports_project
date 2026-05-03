@@ -20,10 +20,11 @@ function Card({title,text,paragraph,img}){
 }
 
 
+
 function OurLatestNews(){
     const {t} = useTranslation();
     return(
-        <div className="w-full py-6 px-4 flex flex-col gap-4">
+        <div className="w-full py-6 px-4 flex flex-col gap-4 3xl:hidden">
             <Title start={t("OurLatestNews.Our")} center={t("OurLatestNews.latest")} end={t("OurLatestNews.news")} />
             <div className="flex flex-col gap-4">
                 <Card title={t("OurLatestNews.title")} text={t("OurLatestNews.text")}/>
