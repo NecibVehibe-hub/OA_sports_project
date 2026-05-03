@@ -22,16 +22,16 @@ function Footer(){
     ];
     
     return(
-        <footer className="bg-blackBg text-white w-full h-150 p-4 flex flex-col gap-16">
-            <div className="w-full h-full flex flex-col gap-14">
-                <div className="w-full h-115 flex flex-col gap-8">
-                    <div className="flex w-83 flex-col gap-2.5">
+        <footer className="bg-blackBg text-white w-full h-150 p-4 flex flex-col gap-16 3xl:py-16  3xl:px-24 3xl:gap-16 3xl:w-360 3xl:h-112">
+            <div className="w-full h-full flex flex-col gap-14 3xl:py-16  3xl:px-24 3xl:gap-16">
+                <div className="w-full h-115 flex flex-col gap-8 3xl:h-59.5 3xl:gap-16 3xl:flex-row">
+                    <div className="flex w-83 flex-col gap-2.5 3xl:w-87.5">
                         <img src={newStar} className="w-23  rounded-2xl h-22" alt="" />
                         <p className="text-whiteColor">
                             {t("Footer.text")}
                         </p>
                     </div>
-                    <div className="w-full h-full flex flex-col gap-3">
+                    <div className="w-full h-full flex flex-col gap-3 3xl:flex-row 3xl:w-206.5 3xl:gap-10">
                         <div className="flex justify-between w-full h-45.5">
                             <div className="flex flex-col gap-2">
                                 <FooterTitles title={t("Footer.Fast_Links")}/> 
@@ -62,7 +62,7 @@ function Footer(){
                         </div>
                     </div>
                 </div>
-                <div className="pt-6 h-8 flex justify-between border-mainYellow border-t-2">
+                <div className="pt-6 h-8  flex justify-between border-mainYellow border-t-2">
                     <small>©All Rights Reserved 2025 </small>
                     <small>{t("Footer.Privacy_Policy")} <span className="ml-2">{t("Footer.Terms")}</span></small>
                 </div>

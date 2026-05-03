@@ -13,12 +13,14 @@ function Imgs(){
 }
 
 
+
+
 function OurPartnership({img1,img2}){
     const {t} = useTranslation();
     img1=newStar;
     img2=saglik;
     return(
-        <div className="w-full h-270 md:h-230 py-6 px-4 flex flex-col gap-4">
+        <div className="w-full h-270 md:h-230 py-6 px-4 flex flex-col gap-4 3xl:hidden">
             <Title start={t("OurPartnership.Our")} center={t("OurPartnership.Partnership")}/>
             <div className="w-full h-37.75 flex justify-center items-center flex-row-reverse gap-6">
                 <img src={img1} className="object-cover w-36.25 h-34.25" alt="" />

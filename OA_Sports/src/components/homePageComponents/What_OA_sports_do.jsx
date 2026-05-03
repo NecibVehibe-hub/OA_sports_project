@@ -34,7 +34,7 @@ function WhatOASportsDo(){
     const [IsOpen,setIsOpen] = useState(0)
 
     return(
-        <div className="w-full h-215 md:h-100 bg-bg py-6 px-4 flex flex-col gap-3 3xl:py-12 3xl:px-24 3xl:h-148.5 3xl:gap-8">
+        <div className="w-full h-215 md:h-100 bg-bg py-6 px-4 flex flex-col gap-3 3xl:w-360 3xl:py-12 3xl:px-24 3xl:h-148.5 3xl:gap-8">
             <Title start={t("WhatOASportsDo.What")} center={t("WhatOASportsDo.OA_sports")} end={t("WhatOASportsDo.do")}/>
             <div className="w-85.75 h-189 flex flex-col md:w-full md:flex-row gap-4 3xl:gap-3.5">
                 {cardsList.map((card,index)=>(

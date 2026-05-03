@@ -5,12 +5,12 @@ import ball from "../../assets/ball.jpg";
 function OurLatestNewsForDesktop(){
     const {t} = useTranslation();
     return(
-        <div className="w-full h-340.25  flex-col hidden  py-12 px-24 gap-8 3xl:flex">
-            <div className="w-full h-16.5 flex justify-between items-center">
+        <div className="w-full h-340.25  flex-col hidden items-center py-12 px-24 gap-8 3xl:flex">
+            <div className="w-312.5 h-16.5 flex justify-between items-center">
                 <Title start={t("OurLatestNews.Our")} center={t("OurLatestNews.latest")} end={t("OurLatestNews.news")} />
                 <h1 className="text-mainYellow text-2xl font-platypiItalic">Show All</h1>
             </div>
-            <div className="w-full h-full flex flex-col flex-wrap gap-6">
+            <div className="w-312.5 h-full flex flex-col flex-wrap gap-6">
                 <Card1 title={t("OurLatestNews.title")} text={t("OurLatestNews.text")} />
                 <Card2  title={t("OurLatestNews.title")} text={t("OurLatestNews.text")} />
                 <Card3 title={t("OurLatestNews.title")} text={t("OurLatestNews.text")} />
