@@ -38,11 +38,10 @@ function OurPartnership({img1,img2}){
                 slidesPerView="auto"
                 loop={true}
                 initialSlide={2} 
-                spaceBetween={-80}
+                spaceBetween={-70}
                 breakpoints={{
                 0: {
                 slidesPerView: 1,
-                spaceBetween: 10,
                 },
                 768: {
                 slidesPerView: 3, 
@@ -51,7 +50,7 @@ function OurPartnership({img1,img2}){
             }}
                 coverflowEffect={{
                     rotate:30,
-                    stretch: 0,
+                    stretch:0,
                     depth: 250,
                     modifier: 1,
                     slideShadows:true,
