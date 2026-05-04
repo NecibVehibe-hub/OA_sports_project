@@ -13,15 +13,15 @@ import zhFlag from "../assets/flags/china.png";
 
 
 
-export let menuItems = [
-    "navbar.Home",
-    "navbar.Services",
-    "navbar.Partners",
-    "navbar.NewsAndReviews",
-    "navbar.Pricing",
-    "navbar.AboutUs",
-    "navbar.ContactUs",
-];
+// export let menuItems = [
+//     "navbar.Home",
+//     "navbar.Services",
+//     "navbar.Partners",
+//     "navbar.NewsAndReviews",
+//     "navbar.Pricing",
+//     "navbar.AboutUs",
+//     "navbar.ContactUs",
+// ];
 export let languages = [
   { name: "tr", label: "Türkçe", img: trFlag },
   { name: "en", label: "English", img: enFlag },
@@ -35,4 +35,15 @@ export let languages = [
   { name: "ja", label: "日本語", img: jaFlag },
   { name: "ko", label: "한국어", img: koFlag },
   { name: "zh", label: "中文", img: zhFlag }
+];
+
+
+export const menuItems = [
+    { label: "navbar.Home", path: "/" },
+    { label: "navbar.Services", path: "/services" },
+    { label: "navbar.Partners", path: "/partners" },
+    { label: "navbar.NewsAndReviews", path: "/news" },
+    { label: "navbar.Pricing", path: "/pricing" },
+    { label: "navbar.AboutUs", path: "/about" },
+    { label: "navbar.ContactUs", path: "/contact" },
 ];

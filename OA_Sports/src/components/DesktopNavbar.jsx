@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import en from "../assets/flags/en.png"
 import stickyNote from "../assets/stickyNote.png"
+import { Link } from 'react-router-dom';
 
 function DesktopNavbar(){
     const { t, i18n } = useTranslation();
@@ -16,7 +17,11 @@ function DesktopNavbar(){
         <nav className="fixed top-0 w-full z-50 h-20 hidden lg:flex  items-center text-whiteColor justify-between gap-4 3xl:w-360 lg:px-4 xl:px-24  bg-blackBg">
             <img src={stickyNote} className="rounded-sm lg:w-10 3xl:w-14" alt="" />
             <ul id="menu" className='lg:min-w-xl 2xl:w-3xl flex gap-3 3xl:gap-6 items-center justify-center flex-row h-3/5 flex-wrap'>
-                {menuItems.map((item)=>(<li className={`font-bold cursor-pointer leading-none ${isActive==t(item)? "text-mainYellow":"text-navFont"}`} onClick={()=>setIsActive(t(item))}>{t(item)}</li>))}
+                {menuItems.map((item)=>(<li key={item.label} className={`font-bold cursor-pointer leading-none ${isActive==t(item.label)? "text-mainYellow":"text-navFont"}`} onClick={()=>setIsActive(t(item.label))}>
+                    <Link to={item.path}>
+                        {t(item.label)}
+                    </Link>
+                </li>))}
             </ul>
             <div className="flex max-w-66.5  gap-3 3xl:gap-10 items-center justify-between">
                 <div className="w-22 h-6">

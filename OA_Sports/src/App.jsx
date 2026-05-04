@@ -1,6 +1,8 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './styles/App.css'
 import Navbar from './components/Navbar'
 import Home from './pages/Home';
+import Services from './pages/Services.jsx';
 import "./i18next.js"
 import DesktopNavbar from './components/DesktopNavbar.jsx';
 import { useTranslation } from 'react-i18next';
@@ -13,13 +15,17 @@ function App() {
     document.documentElement.dir = dir;
     document.documentElement.lang = i18n.language;
   },[i18n.language]);
+    
     return(
         <>
-            <div className='flex flex-col items-center'>
-                <DesktopNavbar/>
+            <BrowserRouter>
                 <Navbar/>
-                <Home/>
-            </div>
+                <DesktopNavbar/>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/services" element={<Services />} />
+                </Routes>
+            </BrowserRouter>
         </>
     )
 }

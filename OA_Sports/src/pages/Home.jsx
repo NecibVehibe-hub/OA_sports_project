@@ -45,4 +45,3 @@ function Home(){
     )
 }
 export default Home;
-// w-full mx-auto sm:max-w-xl md:max-w-3xl lg:max-w-full px-4 sm:px-6

@@ -5,6 +5,7 @@ import { useImperativeHandle, useState } from 'react';
 import ContactUsButton from './ContactUsButton';
 import { useTranslation } from "react-i18next";
 import { menuItems,languages } from './NavData';
+import { Link } from 'react-router-dom';
 
 function Navbar(){
     const { t, i18n } = useTranslation();
@@ -27,7 +28,12 @@ function Navbar(){
             <hr className={`${menuIsOpen ? "border-borderColor":"hidden"} w-full flex justify-self-center z-30`} />
             <nav className={`${menuIsOpen ? "":"hidden"} bg-blackBg  h-screen  overflow-y-auto flex items-center pb-3 flex-col pt-4`}>
                 <ul id="menu" className='w-85.75 h-114.75 flex flex-col  justify-between '>
-                    {menuItems.map((item)=>(<li className={`font-bold leading-none ${isActive==t(item)? "text-mainYellow":"text-navFont"}`} onClick={()=>setIsActive(t(item))}>{t(item)}</li>))}
+                    {menuItems.map((item)=>(<li key={item.label} className={`font-bold leading-none ${isActive==t(item.label)? "text-mainYellow":"text-navFont"}`} onClick={()=>setIsActive(t(item.label))}>
+                        <Link to={item.path}>
+                            {t(item.label)}
+                        </Link>
+                        </li>
+                    ))}
                     <ContactUsButton text={t("navbar.ContactUs")} variant="MenuButton" />
                 </ul>
                 <span className='w-85.75 mt-6 flex justify-between'><li className='font-bold list-none leading-none text-navFont'>{t("navbar.Language")}</li><button onClick={()=>setState(!stateDown)} className='flex gap-1 text-navFont'><img src="" alt="" /><span className='text-mainYellow'>{language}</span>{stateDown ? <ChevronUpIcon className='w-6 h-6 text-mainYellow'></ChevronUpIcon>:<ChevronDownIcon  className='w-6 h-6 text-mainYellow'></ChevronDownIcon>}</button></span>
