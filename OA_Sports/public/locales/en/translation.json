@@ -129,8 +129,24 @@
     "Stay_Connected":"Stay Connected",
     "Terms":"Terms",
     "Privacy_Policy":"Privacy Policy"
-}
+  },
 
+  "ServicesPage":{
+    "----------------------------------":"-------------------------------------------------"
+  },
 
-
+  "servicesList":{
+        "Players":"01 Players",
+        "Coaches":"02 Coaches",
+        "Referees":"03 Referees",
+        "Squad_Planning":"04 Squad Planning",
+        "Scouting":"05 Scouting",
+        "Refereeing_Consultancy":"06 Refereeing Consultancy"
+  },
+  "ServicesTopFirstContainerText":{
+    "text1":"To stay at the top of football, talent alone is not enough — you need the right strategy and complete professional support.",
+    "text2":"We offer a consulting service that thinks through every detail on your behalf to take your career to the next level.",
+    "text3":"Our goal is to be your greatest advantage on the pitch, planning not only for your present but for your future as well.",
+    "text4":"With this program, you won’t rely solely on personal effort — you’ll benefit from the strength of a fully equipped professional team."
+  }
 }

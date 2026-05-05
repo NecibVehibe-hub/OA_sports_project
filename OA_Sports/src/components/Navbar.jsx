@@ -20,7 +20,7 @@ function Navbar(){
 
 
     return(
-        <div className='w-full top-0 center fixed z-50 flex justify-between flex-col  xs:w-106.75 md:w-3xl  lg:hidden'>
+        <div className='w-full top-0 left-0 center fixed z-50 flex justify-between flex-col   lg:hidden'>
             <nav className={`w-full h-20 border-b  bg-blackBg flex flex-row items-center justify-self-center justify-between px-4`}>
                 <img src={alt} className='w-18 h-18' ></img>
                 <span className='w-12 h-12 flex justify-center items-center'>{menuIsOpen ?  <XMarkIcon className="w-6 h-6 stroke-mainYellow" onClick={toggleMenu}  />:<Bars3Icon className="w-6 h-6 text-mainYellow" onClick={toggleMenu} />}</span>
@@ -47,3 +47,5 @@ function Navbar(){
 }
 export default Navbar;
 
+// w-full top-0 left-0 fixed z-50 flex flex-col lg:hidden'
+// xs:w-106.75 md:w-3xl 
