@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 function PricingPlansButton({variant}){
     const {t} = useTranslation();
     let variants={
-        normal:"w-33 h-11 bg-mainYellow rounded-lg font-bold",
+        HomePageButton:"w-33 h-11 bg-mainYellow rounded-lg font-bold",
         HaveShadow:"w-33 h-11 bg-mainYellow rounded-lg font-bold shadow-[0_2px_10px_#D2FF00] 3xl:w-[284px] 3xl:h-14p",
         ServicesButton:"w-full py-4 px-6 bg-mainYellow rounded-lg font-bold text-[14px] shadow-[0_2px_10px_#D2FF00]"
     }

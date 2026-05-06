@@ -16,8 +16,8 @@ import OurPartnershipForDesktop from "../components/homePageComponents/OurPartne
 function Home(){
     const {t} = useTranslation();
     return(
-        <div className="mt-20 md:mt-0 lg:mt-20 w-93.25 xs:w-106.75 bg-bg md:w-3xl lg:w-5xl xl:w-full 3xl:flex 3xl:flex-col 3xl:items-center">
-            <div className="relative h-203 w-full flex items-center">
+        <div className="mt-20 md:mt-0 lg:mt-20 w-screen  bg-bg  lg:w-5xl xl:w-full 3xl:flex 3xl:flex-col 3xl:items-center">
+            <div className="relative h-screen w-full flex items-center">
                 <video autoPlay loop muted  playsInline className="absolute inset-0 w-full h-full object-cover"><source src={video} type="video/mp4" /></video>
                 <div className="absolute bottom-0 left-0 w-full h-42  bg-[linear-gradient(180deg,rgba(18,18,18,0)_0%,#121212_87.81%)]"></div>
                 <div className="h-42.75 w-full relative z-10 flex flex-col items-center md:bottom-18 3xl:bottom-32 gap-8">
@@ -26,7 +26,7 @@ function Home(){
                         <span className="text-whiteColor md:text-2xl 3xl:text-4xl 3xl:font-platypiItalic">{t("HomePage.Every_move_matters_Every_second_counts")}</span>
                     </div>
                     <div className="w-66 h-11 flex justify-between ">
-                        <PricingPlansButton/>
+                        <PricingPlansButton variant={"HomePageButton"} />
                         <ContactUsButton variant="HomePageButton"/>
                     </div>
                 </div>
@@ -35,12 +35,12 @@ function Home(){
             <OurNumbersTalks/>
             <WhatOASportsDo/>
             <WhyOASports/>
-            <InterestedCard/>
+            {/* <InterestedCard/>
             <OurLatestNews/>
             <OurLatestNewsForDesktop/>
             <OurPartnershipForDesktop/>
             <OurPartnership/>
-            <Footer/>
+            <Footer/> */}
         </div>
     )
 }
