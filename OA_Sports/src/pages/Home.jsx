@@ -16,7 +16,7 @@ import OurPartnershipForDesktop from "../components/homePageComponents/OurPartne
 function Home(){
     const {t} = useTranslation();
     return(
-        <div className="mt-20 md:mt-0 lg:mt-20 w-screen  bg-bg  lg:w-5xl xl:w-full 3xl:flex 3xl:flex-col 3xl:items-center">
+        <div className="mt-20 md:mt-0 lg:mt-0 w-screen  bg-bg   3xl:flex 3xl:flex-col 3xl:items-center">
             <div className="relative h-screen w-full flex items-center">
                 <video autoPlay loop muted  playsInline className="absolute inset-0 w-full h-full object-cover"><source src={video} type="video/mp4" /></video>
                 <div className="absolute bottom-0 left-0 w-full h-42  bg-[linear-gradient(180deg,rgba(18,18,18,0)_0%,#121212_87.81%)]"></div>
@@ -35,12 +35,12 @@ function Home(){
             <OurNumbersTalks/>
             <WhatOASportsDo/>
             <WhyOASports/>
-            {/* <InterestedCard/>
+            <InterestedCard/>
             <OurLatestNews/>
             <OurLatestNewsForDesktop/>
             <OurPartnershipForDesktop/>
             <OurPartnership/>
-            <Footer/> */}
+            <Footer/>
         </div>
     )
 }

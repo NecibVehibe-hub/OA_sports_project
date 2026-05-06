@@ -9,8 +9,8 @@ function Card({title,text,paragraph,img}){
     img=ball;
     return(
         <div className="w-full h-75.75 bg-blackBg rounded-2xl p-2">
-            <div style={{ backgroundImage: `url(${img})` }}  className="bg-cover  bg-position-[center_60%] flex items-end rounded-2xl w-full h-full p-2 ">
-                <div className="w-78.75 h-35.5 ">
+            <div style={{ backgroundImage: `url(${img})` }}  className="bg-cover sm:bg-center md:bg-center  bg-position-[center_60%] flex items-end rounded-2xl w-full h-full p-2 ">
+                <div className="w-full">
                     <span className="font-platypiItalic text-[26px] text-mainYellow">{title}</span>
                     <p className="text-whiteColor">{text}</p>
                 </div>

@@ -25,11 +25,11 @@ function OurPartnership({img1,img2}){
     img1=newStar;
     img2=saglik;
     return(
-        <div className="w-full h-270 md:h-230 py-6 px-4 flex flex-col gap-4 3xl:hidden">
+        <div className="w-full  py-6 px-4 flex flex-col gap-4 3xl:hidden">
             <Title start={t("OurPartnership.Our")} center={t("OurPartnership.Partnership")}/>
-            <div className="w-full h-37.75 flex justify-center items-center flex-row-reverse gap-6">
-                <img src={img1} className="object-cover w-36.25 h-34.25" alt="" />
-                <img src={img2} className="w-30.25 h-30.25" alt="" />
+            <div className="w-full flex justify-center items-center flex-row-reverse gap-6">
+                <img src={img1} className="object-cover max-w-36.25 max-h-34.25" alt="" />
+                <img src={img2} className="max-w-30.25 max-h-30.25" alt="" />
             </div>
             <Swiper
                 effect="coverflow"
@@ -42,11 +42,16 @@ function OurPartnership({img1,img2}){
                 breakpoints={{
                 0: {
                 slidesPerView: 1,
+                spaceBetween:-20,
                 },
                 768: {
                 slidesPerView: 3, 
                 spaceBetween: 20, 
                 },
+                450:{
+                    slidesPerView:2,
+                    spaceBetween:20,
+                }
             }}
                 coverflowEffect={{
                     rotate:30,
@@ -74,7 +79,7 @@ function OurPartnership({img1,img2}){
                 <Imgs />
             </SwiperSlide>
             </Swiper>
-            <div className="flex flex-col gap-3 w-full h-90">
+            <div className="flex flex-col gap-3 w-full">
                 <Title start={t("OurPartnership.start")} center={t("OurPartnership.center")}/>
                 <div className="flex flex-col gap-5">
                     <div className="text-whiteColor">
