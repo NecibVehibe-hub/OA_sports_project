@@ -131,8 +131,27 @@
     "Stay_Connected": "Bağlı Kalın",
     "Terms": "Şartlar",
     "Privacy_Policy": "Gizlilik Politikası"
+  },
+  "ServicesPage":{
+    "----------------------------------":"-------------------------------------------------",
+  "title": "Kariyerinizin Mimarı Olun"
+  },
+  
+  "servicesList": {
+    "Players": "01 Oyuncular",
+    "Coaches": "02 Antrenörler",
+    "Referees": "03 Hakem",
+    "Squad_Planning": "04 Kadro Planlama",
+    "Scouting": "05 Tarama",
+    "Refereeing_Consultancy": "06 Hakem Danışmanlığı"
+  },
+  "ServicesTopFirstContainerText": {
+    "text1": "Futbolda tepede kalmak için sadece yetenek yeterli değildir — doğru strateji ve tam profesyonel desteğe ihtiyacınız vardır.",
+    "text2": "Kariyer gelişiminizi bir sonraki seviyeye taşımak için her detayı sizin adınıza düşünen bir danışmanlık hizmeti sunuyoruz.",
+    "text3": "Amacımız, saha üzerinde sizin en büyük avantajınız olmak; sadece bugününüzü değil, geleceğinizi de planlamaktır.",
+    "text4": "Bu program ile sadece kişisel çabaya güvenmeyeceksiniz — tamamen donanımlı bir profesyonel ekibin gücünden yararlanacaksınız."
+  }
 }
 
-}
 
 

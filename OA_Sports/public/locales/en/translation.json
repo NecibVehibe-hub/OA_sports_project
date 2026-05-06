@@ -132,7 +132,8 @@
   },
 
   "ServicesPage":{
-    "----------------------------------":"-------------------------------------------------"
+    "----------------------------------":"-------------------------------------------------",
+    "title":"Be the Architect of Your Career"
   },
 
   "servicesList":{
@@ -149,4 +150,5 @@
     "text3":"Our goal is to be your greatest advantage on the pitch, planning not only for your present but for your future as well.",
     "text4":"With this program, you won’t rely solely on personal effort — you’ll benefit from the strength of a fully equipped professional team."
   }
+  
 }
