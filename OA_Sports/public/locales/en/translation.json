@@ -149,6 +149,29 @@
     "text2":"We offer a consulting service that thinks through every detail on your behalf to take your career to the next level.",
     "text3":"Our goal is to be your greatest advantage on the pitch, planning not only for your present but for your future as well.",
     "text4":"With this program, you won’t rely solely on personal effort — you’ll benefit from the strength of a fully equipped professional team."
+  },
+  "SecondContainer":{
+    "title1":"01 Strategic Advantage",
+    "title2":"02 Performance Optimization",
+    "title3":"03 360° Multidisciplinary Professional Support",
+    "title4":"04 Professional Partnership"
+  },
+  "Content_1":{
+    "paragraph1":"Analysis of the opponent’s team structure, formation, and strategic behaviors.",
+    "paragraph2":"We decode the opponent’s game plan, weaknesses, and key players, and provide you with visual and practical data tailored to your position.",
+    "paragraph3":"Prepare for your match one step ahead of your opponent with customized detailed analytical reports."
+  },
+  "WhatYouGainFromThisService":{
+    "What_you":"What_you",
+    "Gain":"Gain",
+    "from_this_service":"from this service",
+    "Cards":{
+      "card1":"Objective performance measurement and clear progress tracking.",
+      "card2":"Confidence that you are not alone in your career — you’re moving steadily toward the top",
+      "card3":"Better opponent analysis and an early advantage on the field."
+    }
   }
+
+  
   
 }

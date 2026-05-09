@@ -7,6 +7,7 @@ import PricingPlansButton from "../components/Pricing_Plans_Button";
 import Rectangle from "../assets/Rectangle.svg"
 import BuyNowButton from "../components/BuyNowButton";
 import SecondContainer from "../components/ServicesPageComponents/SecondContainer";
+import WhatYouGainFromThisService from "../components/ServicesPageComponents/WhatYouGainFromThisService";
 
 
 
@@ -58,6 +59,7 @@ function Services(){
                 </div>
             {/*------------------------------------------*/}
             <SecondContainer/>
+            <WhatYouGainFromThisService/>
         </div>
     )
 }
