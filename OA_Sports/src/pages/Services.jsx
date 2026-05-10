@@ -8,7 +8,9 @@ import Rectangle from "../assets/Rectangle.svg"
 import BuyNowButton from "../components/BuyNowButton";
 import SecondContainer from "../components/ServicesPageComponents/SecondContainer";
 import WhatYouGainFromThisService from "../components/ServicesPageComponents/WhatYouGainFromThisService";
-
+import WhyOASportsServices from "../components/ServicesPageComponents/WhyOASportsServices";
+import InterestedCard from "../components/InterestedCard"
+import StartingTheJOurney from "../components/ServicesPageComponents/StartingTheJourney";
 
 
 
@@ -60,6 +62,9 @@ function Services(){
             {/*------------------------------------------*/}
             <SecondContainer/>
             <WhatYouGainFromThisService/>
+            <InterestedCard/>
+            <WhyOASportsServices/>
+            <StartingTheJOurney/>
         </div>
     )
 }

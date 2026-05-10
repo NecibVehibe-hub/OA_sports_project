@@ -1,6 +1,9 @@
 import Title from "../Titels";
 import foto123 from "../../assets/foto123.png"
 import { useTranslation } from "react-i18next";
+import messi from "../../assets/messi.svg"
+import Group_5 from "../../assets/Group_5.svg"
+import PricingPlansButton from "../Pricing_Plans_Button";
 
 function WhatYouGainFromThisService(){
     const {t}=useTranslation()
@@ -17,7 +20,7 @@ function WhatYouGainFromThisService(){
 
 
     return(
-        <div className="bg-gray-800 w-full py-6 px-4 flex flex-col gap-6">
+        <div className="w-full py-6 px-4 flex flex-col  gap-6">
             <div className="flex flex-col gap-4.5">
                 <Title start={t("WhatYouGainFromThisService.What_you")} center={t("WhatYouGainFromThisService.Gain")} end={t("WhatYouGainFromThisService.from_this_service")}/>
                 <div className="w-full flex gap-4 no-scrollbar overflow-auto">
@@ -25,9 +28,10 @@ function WhatYouGainFromThisService(){
                     <Card text={t("WhatYouGainFromThisService.Cards.card2")}/>
                     <Card text={t("WhatYouGainFromThisService.Cards.card3")}/>
                 </div>
-                <div className="w-full bg-gray-900 ">
-
+                <div style={{backgroundImage:`url(${Group_5})`}} className="bg-cover bg-no-repeat w-full ">
+                    <img src={messi} alt="" />
                 </div>
+                <PricingPlansButton variant={"ServicesButton"}/>
             </div>
         </div>
     )
