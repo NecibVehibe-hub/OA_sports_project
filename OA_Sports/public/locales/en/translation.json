@@ -170,7 +170,29 @@
       "card2":"Confidence that you are not alone in your career — you’re moving steadily toward the top",
       "card3":"Better opponent analysis and an early advantage on the field."
     }
+  },
+  "WhyOASportsServices":{
+    "Why":"Why",
+    "OA_sports":"OA sports",
+    "card1":{
+      "title":"Experience",
+      "text":"You work with licensed professionals with real on-field expertise."
+    },
+    "card2":{
+      "title":"Fully personalized",
+      "text":"Every service is designed according to your profile, needs, and goals."
+    },
+    "card3":{
+      "title":"Trust & transparency",
+      "text":"All your analyses and reports are accessible via a private digital dashboard. Full confidentiality guaranteed."
+    },
+    "card4":{
+      "title":"Proven results",
+      "text":"We see measurable improvement and clear progress in the players we serve"
+    }
   }
+
+  
 
   
   

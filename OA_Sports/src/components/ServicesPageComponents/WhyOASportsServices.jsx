@@ -24,12 +24,12 @@ function WhyOASportsServices(){
 
     return(
         <div className="flex flex-col gap-6 py-6 px-4">
-            <Title start={"Why"} center={"OA sports"}/>
+            <Title start={t("WhyOASportsServices.Why")} center={t("WhyOASportsServices.OA_sports")}/>
             <div className="flex flex-col gap-6">
-                <Card img={image_19} title={"Experience"} text={"You work with licensed professionals with real on-field expertise."}/>
-                <Card img={image_20} title={"Fully personalized"} text={"Every service is designed according to your profile, needs, and goals."} />
-                <Card img={Generated} title={"Trust & transparency"} text={"All your analyses and reports are accessible via a private digital dashboard. Full confidentiality guaranteed."}/>
-                <Card img={image_23} title={"Proven results"} text={"We see measurable improvement and clear progress in the players we serve"}/>
+                <Card img={image_19} title={t("WhyOASportsServices.card1.title")} text={t("WhyOASportsServices.card1.text") }/>
+                <Card img={image_20} title={t("WhyOASportsServices.card2.title")} text={t("WhyOASportsServices.card2.text") } />
+                <Card img={Generated} title={t("WhyOASportsServices.card3.title")} text={t("WhyOASportsServices.card3.text") }/>
+                <Card img={image_23} title={t("WhyOASportsServices.card4.title")} text={t("WhyOASportsServices.card4.text") }/>
             </div>
         </div>
     )
