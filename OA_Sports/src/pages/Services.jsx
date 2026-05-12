@@ -37,7 +37,7 @@ function Services(){
         t("servicesList.Refereeing_Consultancy")
     ];
     return(
-        <div className="w-screen mt-20 py-6 sm:py-8">
+        <div className="w-screen mt-20 py-6 sm:py-8 xl:py-12 xl:px-24">
             {/*-----------------first container---------- */}
                 <div className="first-container px-4 flex flex-col gap-y-5 sm:px-6 md:px-12 lg:px-16 lx:px-24">
                     <div className="services-top bg-blackBg py-4 px-3 overflow-x-auto  no-scrollbar rounded-l-[48px]  flex gap-x-4 lg:rounded-r-[48px]">

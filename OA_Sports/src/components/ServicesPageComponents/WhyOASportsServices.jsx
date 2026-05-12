@@ -9,8 +9,8 @@ function WhyOASportsServices(){
 
     function Card({img,title,text}){
         return(
-            <div className="w-full ">
-                <img src={img} alt="" />
+            <div className="w-full flex flex-col justify-center lg:justify-between ">
+                <img src={img} className="lg:h-120" alt="" />
                 <div className="bg-mainYellow py-3 px-3 rounded-xl">
                     <header className="text-blackBg text-2xl font-platypiItalic font-bold">{title}</header>
                     <p className="text-[20px] text-blackBg">{text}</p>
@@ -25,7 +25,7 @@ function WhyOASportsServices(){
     return(
         <div className="flex flex-col gap-6 py-6 px-4">
             <Title start={t("WhyOASportsServices.Why")} center={t("WhyOASportsServices.OA_sports")}/>
-            <div className="flex flex-col gap-6">
+            <div className="flex flex-col gap-6 lg:grid lg:grid-cols-2 ">
                 <Card img={image_19} title={t("WhyOASportsServices.card1.title")} text={t("WhyOASportsServices.card1.text") }/>
                 <Card img={image_20} title={t("WhyOASportsServices.card2.title")} text={t("WhyOASportsServices.card2.text") } />
                 <Card img={Generated} title={t("WhyOASportsServices.card3.title")} text={t("WhyOASportsServices.card3.text") }/>

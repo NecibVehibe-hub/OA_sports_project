@@ -8,7 +8,7 @@ import card from "../../assets/card.svg"
 import PricingPlansButton from "../Pricing_Plans_Button";
 function Card({title,text,img,num}){
     return(
-        <div className="w-full bg-blackBg flex flex-col gap-6 relative  rounded-2xl p-4">
+        <div className="w-full bg-blackBg flex flex-col gap-6 relative rounded-2xl p-4 lg:justify-between">
             <div className="bg-mainYellow text-[26px] font-bold font-platypiItalic text-blackBg flex justify-center items-center rounded-tl-2xl rounded-tr-[14px] absolute w-12.25 h-16.5 rounded-br-4xl">
                 {num}
             </div>
@@ -26,9 +26,9 @@ function Card({title,text,img,num}){
 function StartingTheJOurney(){
     const {t}=useTranslation();
     return(
-        <div className="px-4 flex flex-col gap-6">
+        <div className="px-4 flex flex-col gap-6 mb-10">
             <Title center={t("StartingTheJOurney.Starting")} end={t("StartingTheJOurney.the_journey")} />
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 lg:grid lg:grid-cols-2">
                 <Card num={"01"} title={t("StartingTheJOurney.card1.title")} text={t("StartingTheJOurney.card1.text")} img={Group3} />
                 <Card num={"02"} title={t("StartingTheJOurney.card2.title")} text={t("StartingTheJOurney.card2.text")} img={image6} />
                 <Card num={"03"} title={t("StartingTheJOurney.card3.title")} text={t("StartingTheJOurney.card3.text")} img={image11} />

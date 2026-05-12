@@ -28,8 +28,8 @@ function WhatYouGainFromThisService(){
                     <Card text={t("WhatYouGainFromThisService.Cards.card2")}/>
                     <Card text={t("WhatYouGainFromThisService.Cards.card3")}/>
                 </div>
-                <div style={{backgroundImage:`url(${Group_5})`}} className="bg-cover bg-no-repeat w-full ">
-                    <img src={messi} alt="" />
+                <div style={{backgroundImage:`url(${Group_5})`}} className="bg-cover flex items-center justify-center bg-no-repeat w-full ">
+                    <img src={messi} className="lg:hidden" alt="" />
                 </div>
                 <PricingPlansButton variant={"ServicesButton"}/>
             </div>
