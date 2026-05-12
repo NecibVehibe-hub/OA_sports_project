@@ -124,5 +124,98 @@
     "Stay_Connected": "Restez Connecté",
     "Terms": "Conditions d'Utilisation",
     "Privacy_Policy": "Politique de Confidentialité"
+  },
+
+  "ServicesPage":{
+    "----------------------------------":"-------------------------------------------------------------------",
+    "--------------------------------":"------------------------------------------------------------------",
+    "title":"Soyez l'Architecte de Votre Carrière"
+  },
+
+  "servicesList":{
+        "Players":"01 Joueurs",
+        "Coaches":"02 Entraîneurs",
+        "Referees":"03 Arbitres",
+        "Squad_Planning":"04 Planification d'Équipe",
+        "Scouting":"05 Recrutement de Talents",
+        "Refereeing_Consultancy":"06 Conseil en Arbitrage"
+  },
+  "ServicesTopFirstContainerText":{
+    "text1":"Pour rester au sommet du football, le talent seul ne suffit pas — vous avez besoin de la bonne stratégie et d'un soutien professionnel complet.",
+    "text2":"Nous offrons un service de conseil qui réfléchit à chaque détail en votre nom pour faire passer votre carrière au niveau supérieur.",
+    "text3":"Notre objectif est d'être votre plus grand avantage sur le terrain, en planifiant non seulement votre présent mais aussi votre avenir.",
+    "text4":"Avec ce programme, vous ne vous appuierez pas uniquement sur l'effort personnel — vous bénéficierez de la force d'une équipe professionnelle entièrement équipée."
+  },
+  "SecondContainer":{
+    "title1":"01 Avantage Stratégique",
+    "title2":"02 Optimisation des Performances",
+    "title3":"03 Soutien Professionnel Multidisciplinaire 360°",
+    "title4":"04 Partenariat Professionnel"
+  },
+  "Content_1":{
+    "paragraph1":"Analyse de la structure de l'équipe adverse, de sa formation et de ses comportements stratégiques.",
+    "paragraph2":"Nous décryptons le plan de jeu de l'adversaire, ses faiblesses et ses joueurs clés, et vous fournissons des données visuelles et pratiques adaptées à votre poste.",
+    "paragraph3":"Préparez-vous pour votre match une longueur d'avance sur votre adversaire avec des rapports analytiques détaillés et personnalisés."
+  },
+  "WhatYouGainFromThisService":{
+    "What_you":"Ce que vous",
+    "Gain":"gagnez",
+    "from_this_service":"de ce service",
+    "Cards":{
+      "card1":"Mesure objective des performances et suivi clair de la progression.",
+      "card2":"Confiance que vous n'êtes pas seul dans votre carrière — vous progressez régulièrement vers le sommet",
+      "card3":"Meilleure analyse de l'adversaire et un avantage précoce sur le terrain."
+    }
+  },
+  "WhyOASportsServices":{
+    "Why":"Pourquoi",
+    "OA_sports":"OA Sports",
+    "card1":{
+      "title":"Expérience",
+      "text":"Vous travaillez avec des professionnels agréés ayant une véritable expérience sur le terrain."
+    },
+    "card2":{
+      "title":"Complètement personnalisé",
+      "text":"Chaque service est conçu selon votre profil, vos besoins et vos objectifs."
+    },
+    "card3":{
+      "title":"Confiance et transparence",
+      "text":"Toutes vos analyses et rapports sont accessibles via un tableau de bord numérique privé. Confidentialité totale garantie."
+    },
+    "card4":{
+      "title":"Résultats prouvés",
+      "text":"Nous constatons une amélioration mesurable et une progression claire chez les joueurs que nous servons"
+    }
+  },
+  "StartingTheJOurney":{
+    "Starting":"Commencez",
+    "the_journey":"le voyage",
+    "card1":{
+      "title":"Choisissez votre service",
+      "text":"Choisissez le service qui vous convient."
+    },
+    "card2":{
+      "title":"Appel du consultant",
+      "text":"Notre consultant vous contactera."
+    },
+    "card3":{
+      "title":"Analyse",
+      "text":"Nous effectuerons une analyse détaillée de vos besoins."
+    },
+    "card4":{
+      "title":"Livraison de l'analyse",
+      "text":"Nous vous livrerons une analyse détaillée de vos besoins."
+    },
+    "card5":{
+      "title":"Analyse",
+      "text":"Nous effectuerons une analyse détaillée de vos besoins."
+    },
+    "bigTitle":"OA Sports — Un pas en avant commence avec une équipe forte.",
+    "paragraph1":"Votre prochaine étape vers la maîtrise de votre carrière et l'atteinte de votre plein potentiel commence par la stratégie et un soutien fort derrière vous.",
+    "paragraph2":"Franchissons cette étape ensemble aujourd'hui."
   }
+  
+  
+  
+  
 }

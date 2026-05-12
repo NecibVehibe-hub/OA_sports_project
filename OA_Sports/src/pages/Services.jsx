@@ -11,6 +11,7 @@ import WhatYouGainFromThisService from "../components/ServicesPageComponents/Wha
 import WhyOASportsServices from "../components/ServicesPageComponents/WhyOASportsServices";
 import InterestedCard from "../components/InterestedCard"
 import StartingTheJOurney from "../components/ServicesPageComponents/StartingTheJourney";
+import Footer from "../components/Footer"
 
 
 
@@ -65,6 +66,7 @@ function Services(){
             <InterestedCard/>
             <WhyOASportsServices/>
             <StartingTheJOurney/>
+            <Footer/>
         </div>
     )
 }

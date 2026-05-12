@@ -150,7 +150,78 @@
     "text2": "Kariyer gelişiminizi bir sonraki seviyeye taşımak için her detayı sizin adınıza düşünen bir danışmanlık hizmeti sunuyoruz.",
     "text3": "Amacımız, saha üzerinde sizin en büyük avantajınız olmak; sadece bugününüzü değil, geleceğinizi de planlamaktır.",
     "text4": "Bu program ile sadece kişisel çabaya güvenmeyeceksiniz — tamamen donanımlı bir profesyonel ekibin gücünden yararlanacaksınız."
+  },
+  "SecondContainer":{
+    "title1":"01 Stratejik Avantaj",
+    "title2":"02 Performans Optimizasyonu",
+    "title3":"03 360° Çok Disiplinli Profesyonel Destek",
+    "title4":"04 Profesyonel Ortaklık"
+  },
+  "Content_1":{
+    "paragraph1":"Rakip takımın yapısı, formasyonu ve stratejik davranışlarının analizi.",
+    "paragraph2":"Rakibinizin oyun planını, zayıf yönlerini ve kilit oyuncularını çözüp size pozisyonunuza özel olarak uyarlanmış görsel ve pratik veriler sunuyoruz.",
+    "paragraph3":"Rakibinizden bir adım önce hazırlıklı olarak maçınıza çıkın; özelleştirilmiş detaylı analiz raporlarıyla."
+  },
+  "WhatYouGainFromThisService":{
+    "What_you":"Sizin kazandıklarınız",
+    "Gain":"kazandıklarınız",
+    "from_this_service":"bu hizmetten",
+    "Cards":{
+      "card1":"Objektif performans ölçümü ve net ilerleme takibi.",
+      "card2":"Kariyer yolunda yalnız olmadığınızı bilerek, istikrarlı bir şekilde zirveye doğru ilerleme güveni.",
+      "card3":"Daha iyi rakip analizi ve sahada erken avantaj."
+    }
+  },
+  "WhyOASportsServices":{
+    "Why":"Neden",
+    "OA_sports":"OA Sports",
+    "card1":{
+      "title":"Deneyim",
+      "text":"Gerçek saha tecrübesine sahip lisanslı profesyonellerle çalışırsınız."
+    },
+    "card2":{
+      "title":"Tamamen kişiselleştirilmiş",
+      "text":"Her hizmet, sizin profilinize, ihtiyaçlarınıza ve hedeflerinize göre tasarlanır."
+    },
+    "card3":{
+      "title":"Güven & şeffaflık",
+      "text":"Tüm analizleriniz ve raporlarınız özel dijital panonuzdan erişilebilir. Tam gizlilik garantisi."
+    },
+    "card4":{
+      "title":"Kanıtlanmış sonuçlar",
+      "text":"Hizmet verdiğimiz oyuncularda ölçülebilir iyileşme ve net ilerleme görüyoruz."
+    }
+  },
+  "StartingTheJOurney":{
+    "Starting":"Yolculuğu",
+    "the_journey":"başlatmak",
+    "card1":{
+      "title":"Hizmetinizi seçin",
+      "text":"Size uygun hizmeti seçin."
+    },
+    "card2":{
+      "title":"Danışman görüşmesi",
+      "text":"Danışmanımız sizinle iletişime geçecek."
+    },
+    "card3":{
+      "title":"Analiz",
+      "text":"Detaylı bir ihtiyaç analizi yapacağız."
+    },
+    "card4":{
+      "title":"Analiz sunumu",
+      "text":"Detaylı ihtiyaç analizini sunacağız."
+    },
+    "card5":{
+      "title":"Analiz",
+      "text":"Detaylı bir ihtiyaç analizi yapacağız."
+    },
+    "bigTitle":"OA Sports — İleri bir adım güçlü bir ekiple başlar.",
+    "paragraph1":"Kariyer yolunda ustalık kazanmaya ve tam potansiyelinize ulaşmaya doğru bir sonraki adımınız, strateji ve arkasında duran güçlü bir destek ile başlar.",
+    "paragraph2":"Bugün bu adımı birlikte atalım."
   }
+
+
+
 }
 
 

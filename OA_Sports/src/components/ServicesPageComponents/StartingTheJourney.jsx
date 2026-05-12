@@ -23,26 +23,23 @@ function Card({title,text,img,num}){
 
 
 
-
-
-
 function StartingTheJOurney(){
     const {t}=useTranslation();
     return(
         <div className="px-4 flex flex-col gap-6">
-            <Title center={"Starting"} end={"the journey"} />
+            <Title center={t("StartingTheJOurney.Starting")} end={t("StartingTheJOurney.the_journey")} />
             <div className="flex flex-col gap-4">
-                <Card num={"01"} title={"Choose your service"} text={"Choose the service that suits you."} img={Group3} />
-                <Card num={"02"} title={"Consultant call"} text={"Our consultant will contact you."} img={image6} />
-                <Card num={"03"} title={"Analysis"} text={"We will Conduct a detailed needs analysis."} img={image11} />
-                <Card num={"04"} title={"Analysis delivery"} text={"We will Conduct a detailed needs analysis."} img={saha12} />
-                <Card num={"05"} title={"Analysis"} text={"We will Conduct a detailed needs analysis."} img={card} />
+                <Card num={"01"} title={t("StartingTheJOurney.card1.title")} text={t("StartingTheJOurney.card1.text")} img={Group3} />
+                <Card num={"02"} title={t("StartingTheJOurney.card2.title")} text={t("StartingTheJOurney.card2.text")} img={image6} />
+                <Card num={"03"} title={t("StartingTheJOurney.card3.title")} text={t("StartingTheJOurney.card3.text")} img={image11} />
+                <Card num={"04"} title={t("StartingTheJOurney.card4.title")} text={t("StartingTheJOurney.card4.text")} img={saha12} />
+                <Card num={"05"} title={t("StartingTheJOurney.card5.title")} text={t("StartingTheJOurney.card5.text")} img={card} />
             </div>
-            <div className="w-full bg-gray-800 flex flex-col gap-4">
-                <Title center={"OA Sports — A step forward starts with a strong team."} />
+            <div className="w-full flex flex-col gap-4">
+                <Title center={t("StartingTheJOurney.bigTitle")} />
                 <div className="w-full flex flex-col gap-2 text-whiteColor">
-                    <p>Your next step toward mastering your career and reaching your full potential begins with strategy and strong support behind you.</p>
-                    <p>Let’s take that step together today.</p>
+                    <p>{t("StartingTheJOurney.paragraph1")}</p>
+                    <p>{t("StartingTheJOurney.paragraph2")}</p>
                 </div>
                 <PricingPlansButton variant={"ServicesButton"}/>
             </div>

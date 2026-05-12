@@ -22,7 +22,7 @@ function Footer(){
     ];
     
     return(
-        <footer className="bg-blackBg text-white w-full  p-4 flex flex-col gap-16 3xl:py-16  3xl:px-24 3xl:gap-16">
+        <footer className="bg-blackBg text-white w-full pt-8  p-4 flex flex-col gap-16 3xl:py-16  3xl:px-24 3xl:gap-16">
             <div className="w-full h-full flex flex-col gap-10 3xl:py-5 3xl:px-24 3xl:gap-16">
                 <div className="w-full flex flex-col gap-8 3xl:h-59.5 3xl:gap-16 3xl:flex-row">
                     <div className="flex md:w-83 flex-col gap-2.5 3xl:w-87.5">

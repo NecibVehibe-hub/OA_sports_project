@@ -1,0 +1,223 @@
+{
+  "navbar": {
+    "Home": "ホーム",
+    "Services": "サービス",
+    "Partners": "パートナー",
+    "NewsAndReviews": "ニュースとレビュー",
+    "Pricing": "料金",
+    "AboutUs": "について",
+    "ContactUs": "お問い合わせ",
+    "Language":"言語"
+  },
+  "HomePage":{
+    "The_power_that_shapes":"ゲームを形作る",
+    "the_game":"力。",
+    "Every_move_matters_Every_second_counts":"すべての動きが重要です。すべての秒が大切です。"
+  },
+
+  "Buttons":{
+    "Pricing_Plans":"料金プラン",
+    "ContactUs": "お問い合わせ",
+    "BuyNowButton":"今すぐ購入"
+  },
+  "WhoWeAre":{
+    "card1":"私たちが提供するすべてのサービスは、あなたのキャリアに価値を加え、頂点に到達するのを支援するために細心の注意を払って設計されています。",
+    "card2":"私たちの使命は、スポーツのあらゆるレベルの専門家—選手、コーチ、審判、クラブ、連盟—が効果的で長期的な戦略を通じて持続可能な成功を構築するのを支援することです。",
+    "card3":"私たちが提供するすべてのサービスは、あなたのキャリアに価値を加え、頂点に到達するのを支援するために細心の注意を払って設計されています。",
+    "Who":"誰が",
+    "We":"私たちは",
+    "Are":"です"
+  },
+
+  "OurNumbersTalks":{
+    "Our":"私たちの",
+    "numbers":"数字",
+    "talks":"が語る",
+    "card1":{
+      "Talents":"才能",
+      "text":"OA Sportsは、多分野の専門知識を1つの屋根の下にまとめた多面的なスポーツコンサルティングおよび管理会社です。"
+    },
+    "card2":{
+      "Talents":"才能",
+      "text":"OA Sportsは、多分野の専門知識を1つの屋根の下にまとめた多面的なスポーツコンサルティングおよび管理会社です。"
+    },
+    "card3":{
+      "Talents":"才能",
+      "text":"OA Sportsは、多分野の専門知識を1つの屋根の下にまとめた多面的なスポーツコンサルティングおよび管理会社です。"
+    }
+  },
+  "WhatOASportsDo":{
+    "What":"何を",
+    "OA_sports":"OA Sports",
+    "do":"するのか",
+    "card1":{
+      "title":"選手サービス",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card2":{
+      "title":"選手サービス",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card3":{
+      "title":"選手サービス",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card4":{
+      "title":"選手サービス",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card5":{
+      "title":"選手サービス",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  },
+  "WhyOASports":{
+    "Why":"なぜ",
+    "OA_sports":"OA Sports",
+    "card1":{
+      "title":"選手サービス",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card2":{
+      "title":"選手サービス",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card3":{
+      "title":"選手サービス",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card4":{
+      "title":"選手サービス",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card5":{
+      "title":"選手サービス",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  },
+  "InterestedCard":{
+    "title":"興味がありますか？",
+    "text":"これはほんの始まりです。"
+  },
+
+  "OurLatestNews":{
+    "Our":"私たちの",
+    "latest":"最新",
+    "news":"ニュース",
+    "title":"新しい才能が加わりました",
+    "text":"OA Sportsは、多分野の専門知識を1つの屋根の下にまとめた多面的なスポーツコンサルティングおよび管理会社です。"
+  },
+
+  "OurPartnership":{
+    "Our":"私たちの",
+    "Partnership":"パートナーシップ",
+    "text1":"OA Sportsは、多分野の専門知識を1つの屋根の下にまとめた多面的なスポーツコンサルティングおよび管理会社です。OA Sportsは、多分野の専門知識を1つの屋根の下にまとめた多面的なスポーツコンサルティングおよび管理会社です。",
+    "text2":"OA Sportsは、多分野の専門知識を1つの屋根の下にまとめた多面的なスポーツコンサルティングおよび管理会社です。",
+    "start":"パートナー",
+    "center":"SBU大学"
+  },
+
+  "Footer":{
+    "Home":"ホーム",
+    "Services":"サービス",
+    "Latest_News":"最新ニュース",
+    "Articles":"記事",
+    "Contact_Us":"お問い合わせ",
+    "text":"OA Sportsは、多分野の専門知識を1つの屋根の下にまとめた多面的なスポーツコンサルティングおよび管理会社です。",
+    "Fast_Links":"クイックリンク",
+    "Contacts":"連絡先",
+    "Stay_Connected":"つながりを保つ",
+    "Terms":"利用規約",
+    "Privacy_Policy":"プライバシーポリシー"
+  },
+
+  "ServicesPage":{
+    "----------------------------------":"-------------------------------------------------------------------",
+    "--------------------------------":"------------------------------------------------------------------",
+    "title":"あなたのキャリアの建築家になる"
+  },
+
+  "servicesList":{
+        "Players":"01 選手",
+        "Coaches":"02 コーチ",
+        "Referees":"03 審判",
+        "Squad_Planning":"04 チームプランニング",
+        "Scouting":"05 スカウティング",
+        "Refereeing_Consultancy":"06 審判コンサルティング"
+  },
+  "ServicesTopFirstContainerText":{
+    "text1":"フットボールの頂点に留まるには、才能だけでは十分ではありません—正しい戦略と完全なプロフェッショナルサポートが必要です。",
+    "text2":"私たちは、あなたのキャリアを次のレベルに引き上げるために、あなたに代わってすべての詳細を考え抜くコンサルティングサービスを提供しています。",
+    "text3":"私たちの目標は、ピッチ上であなたの最大の利点となることです。現在だけでなく、将来もプランニングしています。",
+    "text4":"このプログラムでは、個人的な努力だけに頼ることはありません—完全に装備されたプロフェッショナルチームの力を活用できます。"
+  },
+  "SecondContainer":{
+    "title1":"01 戦略的優位性",
+    "title2":"02 パフォーマンス最適化",
+    "title3":"03 360°マルチディシプリナリープロフェッショナルサポート",
+    "title4":"04 プロフェッショナルパートナーシップ"
+  },
+  "Content_1":{
+    "paragraph1":"相手チームの構造、フォーメーション、および戦略的行動の分析。",
+    "paragraph2":"相手のゲームプラン、弱点、主要選手を解読し、あなたのポジションに合わせた視覚的および実践的なデータを提供します。",
+    "paragraph3":"カスタマイズされた詳細な分析レポートで、相手より一歩先を行き、試合に備えましょう。"
+  },
+  "WhatYouGainFromThisService":{
+    "What_you":"このサービスで",
+    "Gain":"得られるもの",
+    "from_this_service":"から得られる",
+    "Cards":{
+      "card1":"客観的なパフォーマンス測定と明確な進捗追跡。",
+      "card2":"あなたのキャリアで一人ではないという自信—あなたは着実に頂点に向かっています。",
+      "card3":"より良い相手分析とフィールド上での早期アドバンテージ。"
+    }
+  },
+  "WhyOASportsServices":{
+    "Why":"なぜ",
+    "OA_sports":"OA Sports",
+    "card1":{
+      "title":"経験",
+      "text":"実際のフィールド経験を持つライセンス取得プロフェッショナルと協力します。"
+    },
+    "card2":{
+      "title":"完全にカスタマイズ可能",
+      "text":"すべてのサービスは、あなたのプロフィール、ニーズ、および目標に応じて設計されています。"
+    },
+    "card3":{
+      "title":"信頼と透明性",
+      "text":"すべての分析とレポートは、プライベートデジタルダッシュボードからアクセス可能です。完全な機密性が保証されます。"
+    },
+    "card4":{
+      "title":"実証済みの成果",
+      "text":"私たちがサービスを提供する選手たちに、測定可能な改善と明確な進捗が見られます。"
+    }
+  },
+  "StartingTheJOurney":{
+    "Starting":"旅を",
+    "the_journey":"始める",
+    "card1":{
+      "title":"サービスを選択する",
+      "text":"あなたに合ったサービスを選択してください。"
+    },
+    "card2":{
+      "title":"コンサルタント通話",
+      "text":"私たちのコンサルタントがあなたに連絡します。"
+    },
+    "card3":{
+      "title":"分析",
+      "text":"詳細なニーズ分析を実施します。"
+    },
+    "card4":{
+      "title":"分析の納品",
+      "text":"詳細なニーズ分析を提供します。"
+    },
+    "card5":{
+      "title":"分析",
+      "text":"詳細なニーズ分析を実施します。"
+    },
+    "bigTitle":"OA Sports — 前に進む一歩は強いチームから始まります。",
+    "paragraph1":"あなたのキャリアをマスターし、最大の可能性に到達するための次のステップは、戦略と強力なサポートから始まります。",
+    "paragraph2":"今日、一緒にその一歩を踏み出しましょう。"
+  }
+
+}

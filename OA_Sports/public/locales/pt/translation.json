@@ -124,5 +124,93 @@
     "Stay_Connected": "Fique Conectado",
     "Terms": "Termos e Condições",
     "Privacy_Policy": "Política de Privacidade"
+  },
+  "ServicesPage":{
+    "----------------------------------":"-------------------------------------------------------------------",
+    "--------------------------------":"------------------------------------------------------------------",
+    "title":"Seja o Arquiteto da Sua Carreira"
+  },
+
+  "servicesList":{
+        "Players":"01 Jogadores",
+        "Coaches":"02 Treinadores",
+        "Referees":"03 Árbitros",
+        "Squad_Planning":"04 Planejamento de Equipe",
+        "Scouting":"05 Prospecção de Talentos",
+        "Refereeing_Consultancy":"06 Consultoria de Arbitragem"
+  },
+  "ServicesTopFirstContainerText":{
+    "text1":"Para se manter no topo do futebol, o talento sozinho não é suficiente — você precisa da estratégia correta e apoio profissional completo.",
+    "text2":"Oferecemos um serviço de consultoria que pensa em cada detalhe em seu nome para levar sua carreira para o próximo nível.",
+    "text3":"Nosso objetivo é ser sua maior vantagem no campo, planejando não apenas seu presente, mas também seu futuro.",
+    "text4":"Com este programa, você não dependerá apenas do esforço pessoal — você aproveitará a força de uma equipe profissional totalmente equipada."
+  },
+  "SecondContainer":{
+    "title1":"01 Vantagem Estratégica",
+    "title2":"02 Otimização de Desempenho",
+    "title3":"03 Suporte Profissional Multidisciplinar 360°",
+    "title4":"04 Parceria Profissional"
+  },
+  "Content_1":{
+    "paragraph1":"Análise da estrutura da equipe adversária, formação e comportamentos estratégicos.",
+    "paragraph2":"Deciframos o plano de jogo do adversário, seus pontos fracos e jogadores-chave, e fornecemos dados visuais e práticos adaptados à sua posição.",
+    "paragraph3":"Prepare-se para sua partida um passo à frente do adversário com relatórios analíticos detalhados e personalizados."
+  },
+  "WhatYouGainFromThisService":{
+    "What_you":"O que você",
+    "Gain":"ganha",
+    "from_this_service":"com este serviço",
+    "Cards":{
+      "card1":"Medição objetiva de desempenho e rastreamento claro do progresso.",
+      "card2":"Confiança de que você não está sozinho em sua carreira — você está avançando constantemente em direção ao topo",
+      "card3":"Melhor análise de adversários e uma vantagem antecipada no campo."
+    }
+  },
+  "WhyOASportsServices":{
+    "Why":"Por que",
+    "OA_sports":"OA Sports",
+    "card1":{
+      "title":"Experiência",
+      "text":"Você trabalha com profissionais licenciados com experiência real de campo."
+    },
+    "card2":{
+      "title":"Totalmente personalizado",
+      "text":"Cada serviço é projetado de acordo com seu perfil, necessidades e objetivos."
+    },
+    "card3":{
+      "title":"Confiança e transparência",
+      "text":"Todas as suas análises e relatórios são acessíveis através de um painel digital privado. Confidencialidade total garantida."
+    },
+    "card4":{
+      "title":"Resultados comprovados",
+      "text":"Vemos melhoria mensurável e progresso claro nos jogadores que atendemos"
+    }
+  },
+  "StartingTheJOurney":{
+    "Starting":"Comece",
+    "the_journey":"a jornada",
+    "card1":{
+      "title":"Escolha seu serviço",
+      "text":"Escolha o serviço que se adequa a você."
+    },
+    "card2":{
+      "title":"Chamada do consultor",
+      "text":"Nosso consultor entrará em contato com você."
+    },
+    "card3":{
+      "title":"Análise",
+      "text":"Realizaremos uma análise detalhada de suas necessidades."
+    },
+    "card4":{
+      "title":"Entrega da análise",
+      "text":"Entregaremos uma análise detalhada de suas necessidades."
+    },
+    "card5":{
+      "title":"Análise",
+      "text":"Realizaremos uma análise detalhada de suas necessidades."
+    },
+    "bigTitle":"OA Sports — Um passo adiante começa com uma equipe forte.",
+    "paragraph1":"Seu próximo passo em direção ao domínio de sua carreira e ao alcance de seu potencial máximo começa com estratégia e forte apoio por trás de você.",
+    "paragraph2":"Vamos dar esse passo juntos hoje."
   }
 }

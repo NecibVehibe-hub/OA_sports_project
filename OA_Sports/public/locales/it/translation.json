@@ -1,0 +1,223 @@
+{
+  "navbar": {
+    "Home": "Home",
+    "Services": "Servizi",
+    "Partners": "Partner",
+    "NewsAndReviews": "Notizie e Recensioni",
+    "Pricing": "Prezzi",
+    "AboutUs": "Chi Siamo",
+    "ContactUs": "Contattaci",
+    "Language":"Lingua"
+  },
+  "HomePage":{
+    "The_power_that_shapes":"Il potere che modella",
+    "the_game":"il gioco.",
+    "Every_move_matters_Every_second_counts":"Ogni mossa conta. Ogni secondo è importante."
+  },
+
+  "Buttons":{
+    "Pricing_Plans":"Piani Tariffari",
+    "ContactUs": "Contattaci",
+    "BuyNowButton":"Acquista Ora"
+  },
+  "WhoWeAre":{
+    "card1":"Ogni servizio che offriamo è meticolosamente progettato per aggiungere valore alla tua carriera e aiutarti a raggiungere il vertice.",
+    "card2":"La nostra missione è accompagnare professionisti a tutti i livelli dello sport — giocatori, allenatori, arbitri, club e federazioni — nella costruzione del successo sostenibile attraverso strategie efficaci e a lungo termine.",
+    "card3":"Ogni servizio che offriamo è meticolosamente progettato per aggiungere valore alla tua carriera e aiutarti a raggiungere il vertice.",
+    "Who":"Chi",
+    "We":"Siamo",
+    "Are":"Noi"
+  },
+
+  "OurNumbersTalks":{
+    "Our":"I nostri",
+    "numbers":"numeri",
+    "talks":"parlano",
+    "card1":{
+      "Talents":"Talenti",
+      "text":"OA Sports è un'azienda multifacettata di consulenza e gestione sportiva che riunisce expertise multidisciplinare sotto un unico tetto."
+    },
+    "card2":{
+      "Talents":"Talenti",
+      "text":"OA Sports è un'azienda multifacettata di consulenza e gestione sportiva che riunisce expertise multidisciplinare sotto un unico tetto."
+    },
+    "card3":{
+      "Talents":"Talenti",
+      "text":"OA Sports è un'azienda multifacettata di consulenza e gestione sportiva che riunisce expertise multidisciplinare sotto un unico tetto."
+    }
+  },
+  "WhatOASportsDo":{
+    "What":"Cosa",
+    "OA_sports":"OA Sports",
+    "do":"fa",
+    "card1":{
+      "title":"Servizi per Giocatori",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card2":{
+      "title":"Servizi per Giocatori",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card3":{
+      "title":"Servizi per Giocatori",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card4":{
+      "title":"Servizi per Giocatori",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card5":{
+      "title":"Servizi per Giocatori",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  },
+  "WhyOASports":{
+    "Why":"Perché",
+    "OA_sports":"OA Sports",
+    "card1":{
+      "title":"Servizi per Giocatori",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card2":{
+      "title":"Servizi per Giocatori",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card3":{
+      "title":"Servizi per Giocatori",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card4":{
+      "title":"Servizi per Giocatori",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card5":{
+      "title":"Servizi per Giocatori",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  },
+  "InterestedCard":{
+    "title":"Interessato?",
+    "text":"È solo l'inizio."
+  },
+
+  "OurLatestNews":{
+    "Our":"Le nostre",
+    "latest":"ultime",
+    "news":"notizie",
+    "title":"Un nuovo talento si è unito a noi",
+    "text":"OA Sports è un'azienda multifacettata di consulenza e gestione sportiva che riunisce expertise multidisciplinare sotto un unico tetto."
+  },
+
+  "OurPartnership":{
+    "Our":"La nostra",
+    "Partnership":"Partnership",
+    "text1":"OA Sports è un'azienda multifacettata di consulenza e gestione sportiva che riunisce expertise multidisciplinare sotto un unico tetto. OA Sports è un'azienda multifacettata di consulenza e gestione sportiva che riunisce expertise multidisciplinare sotto un unico tetto.",
+    "text2":"OA Sports è un'azienda multifacettata di consulenza e gestione sportiva che riunisce expertise multidisciplinare sotto un unico tetto.",
+    "start":"Partner con",
+    "center":"Università SBU"
+  },
+
+  "Footer":{
+    "Home":"Home",
+    "Services":"Servizi",
+    "Latest_News":"Ultime Notizie",
+    "Articles":"Articoli",
+    "Contact_Us":"Contattaci",
+    "text":"OA Sports è un'azienda multifacettata di consulenza e gestione sportiva che riunisce expertise multidisciplinare sotto un unico tetto.",
+    "Fast_Links":"Link Veloci",
+    "Contacts":"Contatti",
+    "Stay_Connected":"Rimani Connesso",
+    "Terms":"Termini",
+    "Privacy_Policy":"Politica sulla Privacy"
+  },
+
+  "ServicesPage":{
+    "----------------------------------":"-------------------------------------------------------------------",
+    "--------------------------------":"------------------------------------------------------------------",
+    "title":"Diventa l'Architetto della Tua Carriera"
+  },
+
+  "servicesList":{
+        "Players":"01 Giocatori",
+        "Coaches":"02 Allenatori",
+        "Referees":"03 Arbitri",
+        "Squad_Planning":"04 Pianificazione della Rosa",
+        "Scouting":"05 Scouting",
+        "Refereeing_Consultancy":"06 Consulenza Arbitrale"
+  },
+  "ServicesTopFirstContainerText":{
+    "text1":"Per rimanere in cima al calcio, il talento da solo non è sufficiente — hai bisogno della giusta strategia e del completo supporto professionale.",
+    "text2":"Offriamo un servizio di consulenza che riflette ogni dettaglio per tuo conto per portare la tua carriera al livello successivo.",
+    "text3":"Il nostro obiettivo è essere il tuo più grande vantaggio in campo, pianificando non solo il tuo presente ma anche il tuo futuro.",
+    "text4":"Con questo programma, non ti affiderai solo allo sforzo personale — trarrai vantaggio dalla forza di un team professionale completamente attrezzato."
+  },
+  "SecondContainer":{
+    "title1":"01 Vantaggio Strategico",
+    "title2":"02 Ottimizzazione delle Prestazioni",
+    "title3":"03 Supporto Professionale Multidisciplinare 360°",
+    "title4":"04 Partnership Professionale"
+  },
+  "Content_1":{
+    "paragraph1":"Analisi della struttura della squadra avversaria, formazione e comportamenti strategici.",
+    "paragraph2":"Decodifichiamo il piano di gioco dell'avversario, le sue debolezze e i giocatori chiave, e ti forniamo dati visivi e pratici personalizzati per la tua posizione.",
+    "paragraph3":"Preparati per la tua partita un passo avanti rispetto al tuo avversario con rapporti analitici dettagliati e personalizzati."
+  },
+  "WhatYouGainFromThisService":{
+    "What_you":"Quello che",
+    "Gain":"guadagni",
+    "from_this_service":"da questo servizio",
+    "Cards":{
+      "card1":"Misurazione oggettiva delle prestazioni e tracciamento chiaro dei progressi.",
+      "card2":"La consapevolezza che non sei solo nella tua carriera — stai avanzando costantemente verso la cima.",
+      "card3":"Migliore analisi dell'avversario e un vantaggio anticipato in campo."
+    }
+  },
+  "WhyOASportsServices":{
+    "Why":"Perché",
+    "OA_sports":"OA Sports",
+    "card1":{
+      "title":"Esperienza",
+      "text":"Lavori con professionisti autorizzati che hanno vera esperienza sul campo."
+    },
+    "card2":{
+      "title":"Completamente personalizzato",
+      "text":"Ogni servizio è progettato secondo il tuo profilo, le tue esigenze e i tuoi obiettivi."
+    },
+    "card3":{
+      "title":"Fiducia e trasparenza",
+      "text":"Tutte le tue analisi e relazioni sono accessibili tramite una dashboard digitale privata. Piena riservatezza garantita."
+    },
+    "card4":{
+      "title":"Risultati provati",
+      "text":"Vediamo miglioramenti misurabili e progressi chiari nei giocatori che serviamo."
+    }
+  },
+  "StartingTheJOurney":{
+    "Starting":"Inizia",
+    "the_journey":"il viaggio",
+    "card1":{
+      "title":"Scegli il tuo servizio",
+      "text":"Scegli il servizio che fa per te."
+    },
+    "card2":{
+      "title":"Chiamata del consulente",
+      "text":"Il nostro consulente ti contatterà."
+    },
+    "card3":{
+      "title":"Analisi",
+      "text":"Condurremo un'analisi dettagliata delle tue esigenze."
+    },
+    "card4":{
+      "title":"Consegna dell'analisi",
+      "text":"Consegneremo un'analisi dettagliata delle tue esigenze."
+    },
+    "card5":{
+      "title":"Analisi",
+      "text":"Condurremo un'analisi dettagliata delle tue esigenze."
+    },
+    "bigTitle":"OA Sports — Un passo avanti inizia con un team forte.",
+    "paragraph1":"Il tuo prossimo passo verso il dominio della tua carriera e il raggiungimento del tuo pieno potenziale inizia con la strategia e il forte supporto dietro di te.",
+    "paragraph2":"Facciamo quel passo insieme oggi."
+  }
+
+}

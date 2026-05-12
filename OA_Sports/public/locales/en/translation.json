@@ -132,7 +132,8 @@
   },
 
   "ServicesPage":{
-    "----------------------------------":"-------------------------------------------------",
+    "----------------------------------":"-------------------------------------------------------------------",
+    "--------------------------------":"------------------------------------------------------------------",
     "title":"Be the Architect of Your Career"
   },
 
@@ -190,10 +191,33 @@
       "title":"Proven results",
       "text":"We see measurable improvement and clear progress in the players we serve"
     }
+  },
+  "StartingTheJOurney":{
+    "Starting":"Starting",
+    "the_journey":"the journey",
+    "card1":{
+      "title":"Choose your service",
+      "text":"Choose the service that suits you."
+    },
+    "card2":{
+      "title":"Consultant call",
+      "text":"Our consultant will contact you."
+    },
+    "card3":{
+      "title":"Analysis",
+      "text":"We will Conduct a detailed needs analysis."
+    },
+    "card4":{
+      "title":"Analysis delivery",
+      "text":"We will Conduct a detailed needs analysis."
+    },
+    "card5":{
+      "title":"Analysis",
+      "text":"We will Conduct a detailed needs analysis."
+    },
+    "bigTitle":"OA Sports — A step forward starts with a strong team.",
+    "paragraph1":"Your next step toward mastering your career and reaching your full potential begins with strategy and strong support behind you.",
+    "paragraph2":"Let’s take that step together today."
   }
 
-  
-
-  
-  
 }
