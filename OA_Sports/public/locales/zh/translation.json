@@ -1,0 +1,223 @@
+{
+  "navbar": {
+    "Home": "首页",
+    "Services": "服务",
+    "Partners": "合作伙伴",
+    "NewsAndReviews": "新闻和评论",
+    "Pricing": "价格",
+    "AboutUs": "关于我们",
+    "ContactUs": "联系我们",
+    "Language":"语言"
+  },
+  "HomePage":{
+    "The_power_that_shapes":"塑造游戏的力量",
+    "the_game":"。",
+    "Every_move_matters_Every_second_counts":"每一步都很重要。每一秒都很关键。"
+  },
+
+  "Buttons":{
+    "Pricing_Plans":"价格计划",
+    "ContactUs": "联系我们",
+    "BuyNowButton":"立即购买"
+  },
+  "WhoWeAre":{
+    "card1":"我们提供的每项服务都经过精心设计，为您的职业生涯增加价值，帮助您达到顶峰。",
+    "card2":"我们的使命是陪伴所有级别的体育专业人士、球员、教练、裁判、俱乐部和联盟，通过有效的长期战略建立可持续的成功。",
+    "card3":"我们提供的每项服务都经过精心设计，为您的职业生涯增加价值，帮助您达到顶峰。",
+    "Who":"谁",
+    "We":"我们",
+    "Are":"是"
+  },
+
+  "OurNumbersTalks":{
+    "Our":"我们的",
+    "numbers":"数字",
+    "talks":"说话",
+    "card1":{
+      "Talents":"人才",
+      "text":"OA Sports是一家多层面的体育咨询和管理公司，将多学科专业知识集中在一个屋顶下。"
+    },
+    "card2":{
+      "Talents":"人才",
+      "text":"OA Sports是一家多层面的体育咨询和管理公司，将多学科专业知识集中在一个屋顶下。"
+    },
+    "card3":{
+      "Talents":"人才",
+      "text":"OA Sports是一家多层面的体育咨询和管理公司，将多学科专业知识集中在一个屋顶下。"
+    }
+  },
+  "WhatOASportsDo":{
+    "What":"什么",
+    "OA_sports":"OA体育",
+    "do":"做",
+    "card1":{
+      "title":"球员服务",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card2":{
+      "title":"球员服务",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card3":{
+      "title":"球员服务",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card4":{
+      "title":"球员服务",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card5":{
+      "title":"球员服务",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  },
+  "WhyOASports":{
+    "Why":"为什么",
+    "OA_sports":"OA体育",
+    "card1":{
+      "title":"球员服务",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card2":{
+      "title":"球员服务",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card3":{
+      "title":"球员服务",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card4":{
+      "title":"球员服务",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "card5":{
+      "title":"球员服务",
+      "text":"Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  },
+  "InterestedCard":{
+    "title":"感兴趣？",
+    "text":"这只是开始。"
+  },
+
+  "OurLatestNews":{
+    "Our":"我们的",
+    "latest":"最新",
+    "news":"新闻",
+    "title":"一位新的人才加入了",
+    "text":"OA Sports是一家多层面的体育咨询和管理公司，将多学科专业知识集中在一个屋顶下"
+  },
+
+  "OurPartnership":{
+    "Our":"我们的",
+    "Partnership":"合作伙伴关系",
+    "text1":"OA Sports是一家多层面的体育咨询和管理公司，将多学科专业知识集中在一个屋顶下，OA Sports是一家多层面的体育咨询和管理公司，将多学科专业知识集中在一个屋顶下。",
+    "text2":"OA Sports是一家多层面的体育咨询和管理公司，将多学科专业知识集中在一个屋顶下。",
+    "start":"与以下机构合作",
+    "center":"SBU大学"
+  },
+
+  "Footer":{
+    "Home":"首页",
+    "Services":"服务",
+    "Latest_News":"最新新闻",
+    "Articles":"文章",
+    "Contact_Us":"联系我们",
+    "text":"OA Sports是一家多层面的体育咨询和管理公司，将多学科专业知识集中在一个屋顶下。",
+    "Fast_Links":"快速链接",
+    "Contacts":"联系方式",
+    "Stay_Connected":"保持联系",
+    "Terms":"条款",
+    "Privacy_Policy":"隐私政策"
+  },
+
+  "ServicesPage":{
+    "----------------------------------":"-------------------------------------------------------------------",
+    "--------------------------------":"------------------------------------------------------------------",
+    "title":"成为您职业生涯的建筑师"
+  },
+
+  "servicesList":{
+        "Players":"01 球员",
+        "Coaches":"02 教练",
+        "Referees":"03 裁判",
+        "Squad_Planning":"04 球队计划",
+        "Scouting":"05 球探",
+        "Refereeing_Consultancy":"06 裁判咨询"
+  },
+  "ServicesTopFirstContainerText":{
+    "text1":"要在足球领域保持顶级水平，仅有天赋是不够的——您需要正确的战略和完整的专业支持。",
+    "text2":"我们提供咨询服务，代表您思考每个细节，将您的职业生涯提升到下一个水平。",
+    "text3":"我们的目标是成为您在球场上的最大优势，不仅为您的现在计划，也为您的未来计划。",
+    "text4":"通过这个项目，您不会仅依赖个人努力——您将受益于装备完善的专业团队的力量。"
+  },
+  "SecondContainer":{
+    "title1":"01 战略优势",
+    "title2":"02 性能优化",
+    "title3":"03 360°多学科专业支持",
+    "title4":"04 专业合作伙伴关系"
+  },
+  "Content_1":{
+    "paragraph1":"分析对手的团队结构、阵型和战略行为。",
+    "paragraph2":"我们破译对手的比赛计划、弱点和关键球员，并根据您的位置为您提供视觉和实际数据。",
+    "paragraph3":"通过定制的详细分析报告，提前一步为您的比赛做准备。"
+  },
+  "WhatYouGainFromThisService":{
+    "What_you":"您获得",
+    "Gain":"获益",
+    "from_this_service":"来自这项服务",
+    "Cards":{
+      "card1":"客观的性能测量和明确的进度跟踪。",
+      "card2":"您在职业生涯中并不孤单的信心——您正在稳步向顶峰迈进",
+      "card3":"更好的对手分析和球场上的早期优势。"
+    }
+  },
+  "WhyOASportsServices":{
+    "Why":"为什么",
+    "OA_sports":"OA体育",
+    "card1":{
+      "title":"经验",
+      "text":"您与具有真实现场经验的持证专业人士合作。"
+    },
+    "card2":{
+      "title":"完全个性化",
+      "text":"每项服务都根据您的档案、需求和目标而设计。"
+    },
+    "card3":{
+      "title":"信任和透明度",
+      "text":"您的所有分析和报告都可以通过私人数字仪表板访问。完全保密。"
+    },
+    "card4":{
+      "title":"经过证实的结果",
+      "text":"我们在我们服务的球员中看到可测量的改进和明确的进展"
+    }
+  },
+  "StartingTheJOurney":{
+    "Starting":"开始",
+    "the_journey":"旅程",
+    "card1":{
+      "title":"选择您的服务",
+      "text":"选择适合您的服务。"
+    },
+    "card2":{
+      "title":"顾问电话",
+      "text":"我们的顾问将与您联系。"
+    },
+    "card3":{
+      "title":"分析",
+      "text":"我们将进行详细的需求分析。"
+    },
+    "card4":{
+      "title":"分析交付",
+      "text":"我们将进行详细的需求分析。"
+    },
+    "card5":{
+      "title":"分析",
+      "text":"我们将进行详细的需求分析。"
+    },
+    "bigTitle":"OA体育——向前迈一步从一个强大的团队开始。",
+    "paragraph1":"您迈向掌握职业生涯和发挥全部潜能的下一步始于战略和强有力的支持。",
+    "paragraph2":"让我们今天一起迈出这一步。"
+  }
+
+}

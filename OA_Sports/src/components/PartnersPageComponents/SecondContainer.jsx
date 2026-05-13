@@ -1,0 +1,82 @@
+import Title from "../Titels";
+import ContactUsButton from '../ContactUsButton.jsx'
+import { Swiper, SwiperSlide } from "swiper/react";
+import { EffectCoverflow } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/effect-coverflow";
+import boss from "../../assets/boss.jpg"
+
+
+function Imgs(){
+    return(
+        <>
+            <img src={boss} className="h-full object-cover  overflow-hidden rounded-3xl" alt="" />
+        </>
+    )
+}
+
+
+
+
+
+function SecondContainer({text}){
+    return(
+        <div className="w-full px-6 py-6 flex flex-col gap-6 sm:py-8 xl:py-12 xl:px-24">
+            <div className="flex flex-col gap-4">
+                <Title start={"Partners with"} center={"SBU university !"} />
+                {text}
+            </div>
+            <ContactUsButton variant={"DeskTopNavButton"} />
+                        <Swiper
+                effect="coverflow"
+                grabCursor={true}
+                centeredSlides={true}
+                slidesPerView="auto"
+                loop={true}
+                initialSlide={2} 
+                spaceBetween={-70}
+                breakpoints={{
+                0: {
+                slidesPerView: 1,
+                spaceBetween:-20,
+                },
+                768: {
+                slidesPerView: 3, 
+                spaceBetween: 20, 
+                },
+                450:{
+                    slidesPerView:2,
+                    spaceBetween:20,
+                }
+            }}
+                coverflowEffect={{
+                    rotate:30,
+                    stretch:0,
+                    depth: 250,
+                    modifier: 1,
+                    slideShadows:true,
+                }}
+                modules={[EffectCoverflow]}
+                className="w-full h-93 my-6"
+            >
+            <SwiperSlide>
+                <Imgs />
+            </SwiperSlide>
+            <SwiperSlide>
+                <Imgs />
+            </SwiperSlide>
+            <SwiperSlide>
+                <Imgs />
+            </SwiperSlide>
+            <SwiperSlide>
+                <Imgs />
+            </SwiperSlide>
+            <SwiperSlide>
+                <Imgs />
+            </SwiperSlide>
+            </Swiper>
+        </div>
+    )
+}
+
+export default SecondContainer;

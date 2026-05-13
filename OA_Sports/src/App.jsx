@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './styles/App.css'
 import Navbar from './components/Navbar'
 import Home from './pages/Home';
+import Partners from './pages/Partners.jsx';
 import Services from './pages/Services.jsx';
 import "./i18next.js"
 import DesktopNavbar from './components/DesktopNavbar.jsx';
@@ -24,6 +25,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/services" element={<Services />} />
+                    <Route path='/partners' element={<Partners/>} />
                 </Routes>
             </BrowserRouter>
         </>

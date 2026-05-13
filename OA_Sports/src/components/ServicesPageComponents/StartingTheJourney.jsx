@@ -34,14 +34,15 @@ function StartingTheJOurney(){
                 <Card num={"03"} title={t("StartingTheJOurney.card3.title")} text={t("StartingTheJOurney.card3.text")} img={image11} />
                 <Card num={"04"} title={t("StartingTheJOurney.card4.title")} text={t("StartingTheJOurney.card4.text")} img={saha12} />
                 <Card num={"05"} title={t("StartingTheJOurney.card5.title")} text={t("StartingTheJOurney.card5.text")} img={card} />
-            </div>
-            <div className="w-full flex flex-col gap-4">
+                <div className="w-full flex flex-col gap-4">
                 <Title center={t("StartingTheJOurney.bigTitle")} />
-                <div className="w-full flex flex-col gap-2 text-whiteColor">
-                    <p>{t("StartingTheJOurney.paragraph1")}</p>
-                    <p>{t("StartingTheJOurney.paragraph2")}</p>
+                    <div className="w-full flex flex-col gap-2 text-whiteColor">
+                        <p>{t("StartingTheJOurney.paragraph1")}</p>
+                        <p>{t("StartingTheJOurney.paragraph2")}</p>
+                    </div>
+                    <PricingPlansButton variant={"ServicesButton"}/>
+                    
                 </div>
-                <PricingPlansButton variant={"ServicesButton"}/>
             </div>
         </div>
     )
