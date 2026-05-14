@@ -6,6 +6,7 @@ import two2 from '../assets/two2.png'
 import Group124 from '../assets/Group124.svg'
 import SecondContainer from '../components/PartnersPageComponents/SecondContainer.jsx';
 import Footer from "../components/Footer.jsx"
+import { useTranslation } from "react-i18next";
 
 function PartnersTopFirstContainerText({text}){
     return(
@@ -18,19 +19,19 @@ function PartnersTopFirstContainerText({text}){
 
 
 
-
 function Partners(){
+    const {t}=useTranslation();
     return(
         <div className="w-screen mt-20 px-4 py-6 sm:py-8 xl:py-12 xl:px-24">
             <div className='flex flex-col gap-2.5'>
-                <Title start={"Our"} center={"Partners"} />
+                <Title start={t("Partners.Our")} center={t("Partners.Partners")} />
                 <div className='flex flex-col gap-4'>
-                    <Title center={"Let’s shape the future together"} />
+                    <Title center={t("Partners.Title")} />
                     <div className='w-full flex flex-col gap-4'>
-                        <PartnersTopFirstContainerText text={"We build trust, draw a shared vision, and move with steady steps toward success."} />
-                        <PartnersTopFirstContainerText text={"The value we bring to sports goes beyond short-term gains — it’s about securing your athletic legacy for the future."} />
-                        <PartnersTopFirstContainerText text={"We’re not just a consulting company; we’re your strategic partner in your professional journey."} />
-                        <PartnersTopFirstContainerText text={"We’re not just a consulting company; we’re your strategic partner in your professional journey."} />
+                        <PartnersTopFirstContainerText text={t("Partners.paragraphs.text1")} />
+                        <PartnersTopFirstContainerText text={t("Partners.paragraphs.text2")} />
+                        <PartnersTopFirstContainerText text={t("Partners.paragraphs.text3")} />
+                        <PartnersTopFirstContainerText text={t("Partners.paragraphs.text4")} />
                     </div>
                     <ContactUsButton variant={"DeskTopNavButton"} />
                     <div className='relative mt-10'>
@@ -40,7 +41,7 @@ function Partners(){
                     </div> 
                 </div>
             </div>
-            <SecondContainer text={<PartnersTopFirstContainerText text={"OA Sports is a multifaceted sports consulting and management company that brings together multidisciplinary expertise under one roof."} />}/>
+            <SecondContainer text={<PartnersTopFirstContainerText text={t("Partners.SecondContainer.text")} />}/>
             <Footer/>
         </div>
     )

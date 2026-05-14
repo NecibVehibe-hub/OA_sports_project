@@ -218,11 +218,26 @@
     "bigTitle":"OA Sports — İleri bir adım güçlü bir ekiple başlar.",
     "paragraph1":"Kariyer yolunda ustalık kazanmaya ve tam potansiyelinize ulaşmaya doğru bir sonraki adımınız, strateji ve arkasında duran güçlü bir destek ile başlar.",
     "paragraph2":"Bugün bu adımı birlikte atalım."
-  }
-
-
+  },
+    "Partners": {
+      "----------------------------------": "-------------------------------------------------------------------",
+      "--------------------------------": "------------------------------------------------------------------",
+      "Our": "Bizim",
+      "Partners": "Ortaklarımız",
+      "Title": "Geleceği birlikte şekillendirelim",
+      "paragraphs": {
+        "text1": "Güven inşa eder, paylaşılan bir vizyon çizeriz ve kararlı adımlarla başarıya doğru ilerleriz.",
+        "text2": "Spora getirdiğimiz değer kısa vadeli kazançların ötesine geçer – bu, atletik mirasınızı gelecek için güvence altına almak demektir.",
+        "text3": "Biz sadece bir danışmanlık şirketi değiliz; profesyonel yolculuğunuzda stratejik ortağınızız.",
+        "text4": "Biz sadece bir danışmanlık şirketi değiliz; profesyonel yolculuğunuzda stratejik ortağınızız."
+      },
+      "SecondContainer": {
+        "Partners_with": "Ortakları",
+        "SBU_university": "SBU Üniversitesi!",
+        "text": "OA Sports, tek bir çatı altında disiplinler arası uzmanlığı bir araya getiren çok yönlü bir spor danışmanlığı ve yönetimi şirketidir."
+      }
+    }
+  
 
 }
-
-
 

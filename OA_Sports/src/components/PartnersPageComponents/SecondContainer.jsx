@@ -5,7 +5,7 @@ import { EffectCoverflow } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import boss from "../../assets/boss.jpg"
-
+import { useTranslation } from "react-i18next";
 
 function Imgs(){
     return(
@@ -20,10 +20,11 @@ function Imgs(){
 
 
 function SecondContainer({text}){
+    const {t}=useTranslation();
     return(
         <div className="w-full px-6 py-6 flex flex-col gap-6 sm:py-8 xl:py-12 xl:px-24">
             <div className="flex flex-col gap-4">
-                <Title start={"Partners with"} center={"SBU university !"} />
+                <Title start={t("Partners.SecondContainer.Partners_with")} center={t("Partners.SecondContainer.SBU_university")} />
                 {text}
             </div>
             <ContactUsButton variant={"DeskTopNavButton"} />

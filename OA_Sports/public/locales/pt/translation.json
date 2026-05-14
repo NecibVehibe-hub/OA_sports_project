@@ -212,5 +212,23 @@
     "bigTitle":"OA Sports — Um passo adiante começa com uma equipe forte.",
     "paragraph1":"Seu próximo passo em direção ao domínio de sua carreira e ao alcance de seu potencial máximo começa com estratégia e forte apoio por trás de você.",
     "paragraph2":"Vamos dar esse passo juntos hoje."
+  },
+  "Partners": {
+  "----------------------------------": "-------------------------------------------------------------------",
+  "--------------------------------": "------------------------------------------------------------------",
+  "Our": "Nossos",
+  "Partners": "Parceiros",
+  "Title": "Vamos moldar o futuro juntos",
+  "paragraphs": {
+    "text1": "Construímos confiança, traçamos uma visão compartilhada e avançamos com passos seguros em direção ao sucesso.",
+    "text2": "O valor que trazemos para o esporte vai além dos ganhos de curto prazo – trata-se de garantir seu legado atlético para o futuro.",
+    "text3": "Não somos apenas uma empresa de consultoria; somos seu parceiro estratégico em sua jornada profissional.",
+    "text4": "Não somos apenas uma empresa de consultoria; somos seu parceiro estratégico em sua jornada profissional."
+  },
+  "SecondContainer": {
+    "Partners_with": "Parceiros com",
+    "SBU_university": "Universidade SBU!",
+    "text": "OA Sports é uma empresa multifacetada de consultoria e gestão esportiva que reúne expertise multidisciplinar sob um mesmo teto."
   }
+}
 }
