@@ -8,6 +8,7 @@ import "./i18next.js"
 import DesktopNavbar from './components/DesktopNavbar.jsx';
 import { useTranslation } from 'react-i18next';
 import { useEffect } from 'react';
+import NewsAndReviews from './pages/NewsAndReviews.jsx';
 
 function App() {
     const { i18n } = useTranslation();
@@ -26,6 +27,7 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/services" element={<Services />} />
                     <Route path='/partners' element={<Partners/>} />
+                    <Route path='/news' element={<NewsAndReviews/>}/>
                 </Routes>
             </BrowserRouter>
         </>
