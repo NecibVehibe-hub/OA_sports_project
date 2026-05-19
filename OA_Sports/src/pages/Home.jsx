@@ -12,6 +12,7 @@ import Footer from "../components/Footer";
 import { useTranslation } from "react-i18next";
 import OurLatestNewsForDesktop from "../components/homePageComponents/OurLatestNewsForDesktop";
 import OurPartnershipForDesktop from "../components/homePageComponents/OurPartnershipForDesktop";
+import saha from '../assets/saha.jpg'
 
 function Home(){
     const {t} = useTranslation();
@@ -35,7 +36,7 @@ function Home(){
             <OurNumbersTalks/>
             <WhatOASportsDo/>
             <WhyOASports/>
-            <InterestedCard/>
+            <InterestedCard img={saha}/>
             <OurLatestNews/>
             <OurLatestNewsForDesktop/>
             <OurPartnershipForDesktop/>

@@ -11,7 +11,7 @@ function DesktopNavbar(){
     const { t, i18n } = useTranslation();
     const [flag,setFlag]=useState(en);
     const [language,setLanguage]=useState("en")
-    const [stateDown,setState]=useState(true)
+    const [stateDown,setState]=useState(false)
     const [isActive,setIsActive]=useState(t("navbar.Home")) 
     return(
         <nav className="fixed top-0 left-0 w-screen z-50 h-20 hidden lg:flex  items-center text-whiteColor justify-between gap-4  lg:px-4 xl:px-24  bg-blackBg">

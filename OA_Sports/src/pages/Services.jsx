@@ -12,7 +12,7 @@ import WhyOASportsServices from "../components/ServicesPageComponents/WhyOASport
 import InterestedCard from "../components/InterestedCard"
 import StartingTheJOurney from "../components/ServicesPageComponents/StartingTheJourney";
 import Footer from "../components/Footer"
-
+import saha from '../assets/saha.jpg'
 
 
 function ServicesTopFirstContainerText({text}){
@@ -63,7 +63,7 @@ function Services(){
             {/*------------------------------------------*/}
             <SecondContainer/>
             <WhatYouGainFromThisService/>
-            <InterestedCard/>
+            <InterestedCard img={saha} />
             <WhyOASportsServices/>
             <StartingTheJOurney/>
             <Footer/>
