@@ -7,6 +7,10 @@ import star3 from '../assets/star_3.svg'
 import InterestedCard from '../components/InterestedCard.jsx'
 import saha from '../assets/saha.jpg'
 import Footer  from '../components/Footer.jsx'
+import VoiceSearch from '../components/SearchInput.jsx'
+
+
+
 
 function Card({name,profile,text,title}){
     function Tag(){
@@ -65,9 +69,12 @@ function What_our_clients_say_about_us(){
     }
 
     return(
-        <div className='flex flex-col py-6 gap-6 w-screen'>
+        <div className='flex flex-col py-6 gap-6'>
             <Title start={"What our"} center={"clients"} end={"say about us"} />
             <div className='flex gap-x-4 overflow-x-auto no-scrollbar'>
+                <Card/>
+                <Card/>
+                <Card/>
                 <Card/>
                 <Card/>
                 <Card/>
@@ -79,12 +86,13 @@ function What_our_clients_say_about_us(){
 
 function NewsAndReviews(){
     return(
-        <div className="text-white w-screen">
-            <div className='flex flex-col px-4 py-6  sm:py-8 xl:py-12 xl:px-24 mt-20 gap-6'>
-                <div className='flex  items-center justify-between'>
+        <div className="text-white w-screen mt-20">
+            <div className='flex flex-col px-4 py-6  sm:py-8 lg:py-12 lg:px-24 lg:gap-10 gap-6'>
+                <div className='flex items-center justify-between'>
                     <Title start={"Our"} center={"News"} />
-                    <span className='text-mainYellow text-[16px] font-bold'>View all</span>
+                    <span className='text-mainYellow text-[16px] font-bold lg:text-[28px] cursor-pointer'>View all</span>
                 </div>
+                <VoiceSearch/>
                 <div className='flex gap-4 overflow-x-auto no-scrollbar'>
                     <Card/>
                     <Card/>
