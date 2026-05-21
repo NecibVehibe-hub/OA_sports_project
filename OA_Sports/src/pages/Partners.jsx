@@ -22,6 +22,7 @@ function PartnersTopFirstContainerText({text}){
 function Partners(){
     const {t}=useTranslation();
     return(
+        <>
         <div className="w-screen mt-20 px-4 py-6 sm:py-8 xl:py-12 xl:px-24 flex flex-col 3xl:gap-15">
             <div className='flex flex-col gap-2.5 3xl:flex-row xl:py-12 xl:px-24'>
                 <div className='flex flex-col gap-4 3xl:w-[70%] 3xl:gap-8'>
@@ -42,8 +43,9 @@ function Partners(){
                 </div> 
             </div>
             <SecondContainer text={<PartnersTopFirstContainerText text={t("Partners.SecondContainer.text")} />}/>
-            <Footer/>
         </div>
+            <Footer/>
+        </>
     )
 }
 
